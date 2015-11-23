@@ -22,4 +22,4 @@ With the help of 65 information coordinators in 35 City departments and programs
 
 We are in the process of evaluating and verifying these datasets to find out which of them can be added to a web portal. After we have a list of the most important, highest quality datasets, residents will have a chance to weigh in on which should go to the portal first.
 
-In the meantime, we are also fine-tuning written guidelines on how to publish our data, developing special projects to display some of this data, helping city departments use data to measure performance, improving the process for requesting records from the City, and making connnections with members of the community who could use open data.
+In the meantime, we are also fine-tuning written guidelines on how to publish our data, developing special projects to display some of this data, helping departments use data to measure performance, improving the process for requesting records from the City, and making connnections with members of the community who could use open data.
