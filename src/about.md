@@ -12,7 +12,7 @@ Maksim, Chief Data Officer for the City since November 2014, spent the year befo
 Before moving to California, Maksim was a Solutions Architect at Promet Source where he built large web systems and designed complex integrations. He also shaped development processes and led international development teams.
 
 ###Andrell Bower
-Andrell, Open Data Program Coordinator since August 2015, has a background in news reporting and data visualization. She covered topics such as elections, water use, the local economy and crime as a member of the Graphics, Data & Research department in the newsroom of the San Diego Union Tribune.
+Andrell, Open Data Program Coordinator since August 2015, has a background in news reporting and data visualization. She covered topics such as elections, water use, the local economy and crime as a member of the Graphics, Data & Research department in the newsroom of the San Diego Union-Tribune.
 
 ##Open data for the City of San Diego
 
