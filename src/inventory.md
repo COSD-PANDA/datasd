@@ -17,6 +17,7 @@ title: Inventory
             <th>DatasetName</th>
             <th>Description</th>
             <th>Department</th>
+            <th>Vote</th>
         </tr>
     </thead>
     <tbody>
@@ -28,7 +29,10 @@ title: Inventory
                     <td> {{ invRow.PriorityLevel }} </td>
                     <td> {{ invRow.DatasetName }} </td>
                     <td> {{ invRow.Description }} </td>
-                    <td> {{ invRow.Department }}
+                    <td> {{ invRow.Department }} </td>
+                    <td> 
+                        <a target="_blank" href="http://sdcdo.wufoo.com/forms/dataset-vote/def/field6={{ invRow.ID }}_{{ invRow.DatasetName | downcase | replace:' ','-' }}">Vote</a> 
+                    </td>
                 </tr>
             {% endif %}
         {% endfor %}
