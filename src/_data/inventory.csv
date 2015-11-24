@@ -1,0 +1,106 @@
+Bucket,PriorityLevel,DatasetName,Description,Department
+Economy and community,1,Business tax data,"Active and inactive business tax accounts, including account|name|ownership type|address|phone|owner name|account creation date|start date|certificate expiration|naics code|activity description|employee count",City Treasurer
+Economy and community,1,Business tax data,"Active businesses by Business Improvement District, including account|name|ownership type|address|phone|owner name|account creation date|start date|certificate expiration|naics code|activity description|employee count",City Treasurer
+Economy and community,1,Vacant properties,Bank reported vacant/foreclosed properties,Development Services
+Economy and community,1,Rating actions,Historical ratings of city bond issues,Debt management
+Economy and community,3,Housing,"Adequate sites housing inventory, both in GIS and Access databases. Detailed inventory and maps, and an inventory overview by community planning area.",Park and Recreation
+Economy and community,4,Permitting,"‣Permit applications received (yearly, monthly, weekly) ‣Permits issued (yearly, monthly, weekly) ‣Permits completed (yearly, monthly, weekly) ‣Recently closed code enforcement cases ‣Code enforcement case status, including complaint mix|remedy ‣Permit inspection results ‣Open code enforcement cases ‣Permit status, including fees|timelines|issuances|attributes ‣Project status, including review timelines|invoices|associated job site locations|customers|associated permits",Debt management
+Economy and community,2,Business Improvement Districts,Jupiter & Atlas GIS sde,IT
+Economy and community,3,Storefront improvement program,‣Numbers of new participants ‣Numbers of projects completed,Economic Development
+Economy and community,2,Buildings,Non-residential building footprints,IT
+Economy and community,4,ADA complaints,"All complaints opened, including complanent, address/location of complaint, status",ADA Compliance and Accessibility
+,,,,
+Transportation,1,Parking citations,"Citation payments by issuing agency, source, violation code, and issuance date",City Treasurer
+Transportation,1,Parking citations,"Citations issued ‣Numbers of citations, notices, payments by source, appeals received and processed, holds/liens placed with DMV ‣Numbers issued by officer, location and date range",City Treasurer
+Transportation,1,Transportation infrastructure managed in Cartegraph,‣Miles paved ‣Project ‣Street OCI,Transportation and Storm Water
+Transportation,2,Capital improvement,Street-related capital improvement projects,City Comptroller
+Transportation,1,Transportation infrastructure managed in SAP,‣Traffic signal inventory and work ‣Street light inventory and work,Transportation and Storm Water
+Transportation,2,Parking impact,"Parking impact zones for campus, coast & beach",IT
+,,,,
+City management and ethics,1,Parking citations,"Citation payments by issuing agency, source, violation code, and issuance date",City Treasurer
+City management and ethics,1,Parking citations,"Citations issued ‣Numbers of citations, notices, payments by source, appeals received and processed, holds/liens placed with DMV ‣Numbers issued by officer, location and date range",City Treasurer
+City management and ethics,1,Water revenue,Daily revenue by rate category,Public Utilities
+City management and ethics,1,Water revenue,Recycled water revenue by rate category,Public Utilities
+City management and ethics,1,Water revenue,Water and sewer accounts by premise type,Public Utilities
+City management and ethics,1,TOT/TMD,‣List of all active TOT certificates ‣TOT certificates by type and status ‣TMD totals by period(s) ‣TOT totals by period(s),City Treasurer
+City management and ethics,1,Boards and commissions,"Appointments, reappointments, resignations",City Clerk
+City management and ethics,1,EMC's documentum content,"Vital records under the jurisdiction of the clerk, such as council agenda, dockets, council minutes and results, council meeting summary sheets, council speaker slips, resolutions and ordinances, municipal code, public notices, planning commission appeals, notice of determinations, city council policies",City Clerk
+City management and ethics,1,Netfile content,"Filers disclose state and local mandated information: statement of economic interests, campaign disclosures, and lobbyist registrations",City Clerk
+City management and ethics,1,IMCAT feature classes,Public Utilities Capital Improvement Projects and O&M project information,Public Utilities
+City management and ethics,2,Parking meter revenue,"‣Single head meter data ‣IPS dms meter data ‣Cale meter data (revenue by meter, community parking district, street, block number, time purchased, total payment amount, payment source)",City Treasurer
+City management and ethics,2,Grants,Citywide grant excel spreadsheet,Corporate Partnership
+City management and ethics,2,Grants,"Park and Recreation grant contract's and related grant-funded projects, includes granting agency|amount|award date|expiration date|wbs#|project manager|project status",Park and Recreation
+City management and ethics,4,Sales tax,Monthly sales tax actuals receipts with quarterly cleanup payments from the state.,Financial Management
+City management and ethics,4,Golf sales,"Sales revenue by golf facility, month and type",Park and Recreation
+,,,,
+Energy and environment,1,Water usage,‣Amount of water used monthly by golf facility ‣Water expenses monthly by golf facility,Park and Recreation
+Energy and environment,4,Water usage,Water bills ‣community parks i ‣community parks ii ,Park and Recreation
+Energy and environment,1,Water usage,Spreadsheet tracking compliance of a goal of achieving a 20% reduction in urban per capita water.,Public Utilities
+Energy and environment,1,Water usage,"City water accounts, including ‣city departments ‣Park and Recreation and ‣premise type in hundreds of cubic feet and ‣rolling 12-months by acre-feet. Metered water billed, including ‣potable water rolling 12 months ‣recycled irrigation rolling 12 months ‣water rolling 12 months",Public Utilities
+Energy and environment,1,Water usage,Park and Recreation water usage report provided by Public Utilites. (Check whether this is included in the dataset listed above),Park and Recreation
+Energy and environment,1,Water usage,"Water waste complaints tracked to inform residents of water being wasted by sprinklers, hoses, leaks, etc.",Public Utilities
+Energy and environment,1,Water usage,"Monthly reservoir reports for Hodges, Sutherland, Olivenhain reservoirs (I know weekly reports are available from PRAR)",Public Utilities
+Energy and environment,1,Air quality,Notices of air quality violation from site-provided operating data for CA health & safety code 42400,Public Utilities
+Energy and environment,3,Air quality,"Emissions inventory report based on site-provided operating data, sdapcd for sdapcd rule 19.3, ‣plwtp ‣ps 2 ‣mbc ‣ncwrp ‣ps 65 ‣penas ps",Public Utilities
+Energy and environment,3,Air quality,"Fleet emissions calculation (portable equipment), CA air resources board for atcm sec 93116",Public Utilities
+Energy and environment,1,Rebates,Rebate program participation and rebate funding,Public Utilities
+Energy and environment,2,Seal monitoring,Children's pool seal monitoring data and reports,Park and Recreation
+Energy and environment,2,FEWD permit program,FSE dot on establishment layer,Public Utilities
+Energy and environment,2,Miramar landfill,"Disposed material tonnages tracked, plus revenue from transaction fees and city-wide recycling tonnages tracked",Public Utilities
+Energy and environment,4,Brownfields assessment project ,"Name and address of sites being assessed through San Diego Brownfields Assessment Project (redevelopment or expansion of property complicated by presence of pollutant, hazardous substance or contaminant)",Economic Development
+Energy and environment,2,Geohazards,Geological hazards. Jupiter & Atlas sde.,IT
+Energy and environment,2,Fire hazards,Areas of significant fire hazards within the city. Jupiter & Atlas sde.,IT
+Energy and environment,2,Storm water code enforcement,Type of violation,Transportation and Storm Water
+Energy and environment,3,Storm water pollution,Engineer inspections of all city-sponsored construction sites and whether runoff is getting into storm water system,Transportation and Storm Water
+,,,,
+Culture and recreation,1,Library hours,‣Hours by location since 1975 ‣Total hours opened FY '00 - FY '15,Library
+Culture and recreation,2,Library hours,"Weekly hours of operation, street address, and phone number of all library locations",Library
+Culture and recreation,1,Historic landmarks,List of designated historical landmarks,Planning
+Culture and recreation,2,Historical districts,Jupiter & Atlas GIS sde,IT
+Culture and recreation,1,Special events (plus IMCAT),‣Information from special event permit applications ‣Polygon or line drawing representation of event venue added to IMCAT,Special Events
+Culture and recreation,1,Beach amenities,Beach amentities by beach,Fire-Rescue lifeguard division
+Culture and recreation,2,Trails,‣Trails GIS ‣Trans county trail GIS ,Park and Recreation
+Culture and recreation,2,Trees,All trees planted in parks since '05,Park and Recreation
+Culture and recreation,2,Rivers,River GIS,Park and Recreation
+Culture and recreation,2,Recreation sites GIS,‣Athletic areas ‣Joint-use areas ‣Park land dedication status ‣Park parking lots and park roads ‣Playgrounds ‣Pools/aquatic centers ‣Recreation centers,Park and Recreation
+Culture and recreation,2,Open space,Parcels designated as open space. Jupiter & Atlas sde.,IT
+Culture and recreation,2,Parks,Properties managed by Park and Recreation,IT
+Culture and recreation,4,Parks,Inventory ‣community parks i ‣community parks ii ‣neighborhood parks ,Park and Recreation
+Culture and recreation,3,Cultural data project tracking annual performance measures for organizations that receive city funding,‣Contributions from non-City orgs ‣Revenue earned ‣Employee/volunteer count ‣Attendance numbers for services ‣Numbers of tourists accessing services ‣Free admissions offered ‣Money spent in local economy (direct expenditures) ‣Paid admissions,Commission for Arts and Culture
+Culture and recreation,2,Adult fitness report,Permits assigned for park areas where paid adult fitness classes occur,Park and Recreation
+Culture and recreation,4,Library circulation,Official circulation statistics,Library
+,,,,
+Public safety,1,FireRMS,List of incidents occuring in the city,Fire-Rescue
+Public safety,2,CRMS arrest log,"Adult arrest log details, including incident number|booking number|suspect details (name, race, sex, date of birth)|primary charge|beat",Police
+Public safety,2,Calls for service,"Incident details for most call types, including incident number|date/time|location|call type|disposition|beat",Police
+Public safety,2,Clery Act,"‣Arrest counts (counts for alcohol, narcotics and weapons violations that includes location and date) ‣Crime counts (counts for homicide, rape, robbery, aggravated assault, burglary, larceny, vehicle theft and arson that includes location and date)",Police
+Public safety,2,Vehicle stop cards,"‣Stop details (date/time, stop cause, race, sex, age, service area, resident status, property seized, contraband found, consent, search, arrest) ‣Action details (citation, verbal warning, written warning, field interview or other) ‣Search basis details (reason for search) ‣Search type details (search involved driver, passenger(s) and/or vehicle)",Police
+Public safety,2,Collisions,"Collision number, date/time and location",Police
+Public safety,3,Gang statistics,Countwide gang statistics involving SD gang member,Commission on Gang Prevention and Intervention
+Public safety,2,Police review case tracking,Excel case tracking log,Citizens' Review Board on Police Practices
+Public safety,2,Cliff rescues,Dates and locations of cliff rescues,Fire-Rescue lifeguard division
+Public safety,2,Beach infractions,"Misdemeanor and infraction tracking, type of cite and location",Fire-Rescue lifeguard division
+Public safety,2,CAD,Response time statistics,Fire-Rescue
+,,,,
+City infrastructure,1,City property,Shapefile of city-owned sites (check for similarities/differences),READ
+City infrastructure,1,City property,PUD-owned land (included in above dataset?),Public Utilities
+City infrastructure,2,City property,"City-owned land, Jupiter & Atlas sde (check for similarities/differences)",IT
+City infrastructure,2,City property,Properties managed by Park and Recreation,IT
+City infrastructure,4,City property,Inventory ‣community parks i ‣community parks ii ‣neighborhood parks,Park and Recreation
+City infrastructure,2,City property,Parks restroom inventory,Park and Recreation
+City infrastructure,4,City property,Telecoms/wireless communication facilities in parks,Park and Recreation
+City infrastructure,2,City property,Lifeguard stations,IT
+City infrastructure,2,City property,Building footprints of city-owned buildings,IT
+City infrastructure,2,Communication sites,Radio communication sites built and maintained by the City ‣city limits ‣countywide,IT
+City infrastructure,1,IMCAT feature classes,Public Utilities Capital Improvement Projects and O&M project information,Public Utilities
+City infrastructure,1,Undergrounding GIS,When undergrounding will be allocated,Transportation and Storm Water
+City infrastructure,1,Water mains,‣Water main break GIS data ‣Water main break totals by year (fiscal or annual) with type as crystal reports,Public Utilities
+City infrastructure,1,Street sweeping,Street sweeping route,Transportation and Storm Water
+City infrastructure,1,Bikeways,Bikeways (figure out similarities/differences with other bike layers),Transportation and Storm Water
+City infrastructure,2,Bike route master plan,Jupiter & Atlas GIS sde (figure out similarities/differences with other bike layers),IT
+City infrastructure,2,Bicycle master plan,Jupiter & Atlas GIS sde (figure out similarities/differences with other bike layers),IT
+City infrastructure,2,Recreation sites GIS,‣Athletic areas ‣Joint-use areas ‣Park land dedication status ‣Park parking lots and park roads ‣Playgrounds ‣Pools/aquatic centers ‣Recreation centers,Park and Recreation
+City infrastructure,2,Park and playground inspections,Park and playground weekly condition reports (kept on paper),Park and Recreation
+City infrastructure,3,Park improvements ,Unfunded park improvements,Park and Recreation
+City infrastructure,3,Water infrastructure,‣Sewer mains ‣Sewer manholes ‣Water mains ‣Recycled water mains ‣Water hydrants,Public Utilities
+City infrastructure,3,Fire hydrant knockover totals,Fire hydrant knockover totals by year,Public Utilities

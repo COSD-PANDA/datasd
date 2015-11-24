@@ -1,0 +1,60 @@
+/** Assists **/
+
+@mixin merriweather {
+  font-family: "Merriweather",Helvetica, Arial, sans-serif;
+}
+
+@mixin opensans{
+  font-family: "Open Sans",Helvetica, Arial, sans-serif;
+}
+
+
+/* Mixin */
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Classic Pallete */
+/*http://take.ms/7Sv5Z*/
+
+
+$p_blue: #0098db;
+$p_green: #00c7b2;
+$p_orange: #ffa02f;
+$p_yellow: #fcd900;
+$p_white: #000000;
+$p_black: #37424a;
+$p_beige: #dad7cb;
+
+$s_black: #1b242a;
+
+$white: white;
+
+
+
+/** End Assists **/
+
+body {
+  width: 100%;
+  height:100%;
+  position: fixed;
+  @include opensans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @include opensans;
+}
+
+/** Sidebar **/
+
+  .sidebar {
+    background: $s_black;
+  }
+  .social-links {
+    text-align: center;
+  }
+
