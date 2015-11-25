@@ -9,14 +9,12 @@ Economy and community,2,Business Improvement Districts,Jupiter & Atlas GIS sde,I
 Economy and community,3,Storefront improvement program,‣Numbers of new participants ‣Numbers of projects completed,Economic Development
 Economy and community,2,Buildings,Non-residential building footprints,IT
 Economy and community,4,ADA complaints,"All complaints opened, including complanent, address/location of complaint, status",ADA Compliance and Accessibility
-,,,,
 Transportation,1,Parking citations,"Citation payments by issuing agency, source, violation code, and issuance date",City Treasurer
 Transportation,1,Parking citations,"Citations issued ‣Numbers of citations, notices, payments by source, appeals received and processed, holds/liens placed with DMV ‣Numbers issued by officer, location and date range",City Treasurer
 Transportation,1,Transportation infrastructure managed in Cartegraph,‣Miles paved ‣Project ‣Street OCI,Transportation and Storm Water
 Transportation,2,Capital improvement,Street-related capital improvement projects,City Comptroller
 Transportation,1,Transportation infrastructure managed in SAP,‣Traffic signal inventory and work ‣Street light inventory and work,Transportation and Storm Water
 Transportation,2,Parking impact,"Parking impact zones for campus, coast & beach",IT
-,,,,
 City management and ethics,1,Parking citations,"Citation payments by issuing agency, source, violation code, and issuance date",City Treasurer
 City management and ethics,1,Parking citations,"Citations issued ‣Numbers of citations, notices, payments by source, appeals received and processed, holds/liens placed with DMV ‣Numbers issued by officer, location and date range",City Treasurer
 City management and ethics,1,Water revenue,Daily revenue by rate category,Public Utilities
@@ -32,7 +30,6 @@ City management and ethics,2,Grants,Citywide grant excel spreadsheet,Corporate P
 City management and ethics,2,Grants,"Park and Recreation grant contract's and related grant-funded projects, includes granting agency|amount|award date|expiration date|wbs#|project manager|project status",Park and Recreation
 City management and ethics,4,Sales tax,Monthly sales tax actuals receipts with quarterly cleanup payments from the state.,Financial Management
 City management and ethics,4,Golf sales,"Sales revenue by golf facility, month and type",Park and Recreation
-,,,,
 Energy and environment,1,Water usage,‣Amount of water used monthly by golf facility ‣Water expenses monthly by golf facility,Park and Recreation
 Energy and environment,4,Water usage,Water bills ‣community parks i ‣community parks ii ,Park and Recreation
 Energy and environment,1,Water usage,Spreadsheet tracking compliance of a goal of achieving a 20% reduction in urban per capita water.,Public Utilities
@@ -52,7 +49,6 @@ Energy and environment,2,Geohazards,Geological hazards. Jupiter & Atlas sde.,IT
 Energy and environment,2,Fire hazards,Areas of significant fire hazards within the city. Jupiter & Atlas sde.,IT
 Energy and environment,2,Storm water code enforcement,Type of violation,Transportation and Storm Water
 Energy and environment,3,Storm water pollution,Engineer inspections of all city-sponsored construction sites and whether runoff is getting into storm water system,Transportation and Storm Water
-,,,,
 Culture and recreation,1,Library hours,‣Hours by location since 1975 ‣Total hours opened FY '00 - FY '15,Library
 Culture and recreation,2,Library hours,"Weekly hours of operation, street address, and phone number of all library locations",Library
 Culture and recreation,1,Historic landmarks,List of designated historical landmarks,Planning
@@ -69,7 +65,6 @@ Culture and recreation,4,Parks,Inventory ‣community parks i ‣community parks
 Culture and recreation,3,Cultural data project tracking annual performance measures for organizations that receive city funding,‣Contributions from non-City orgs ‣Revenue earned ‣Employee/volunteer count ‣Attendance numbers for services ‣Numbers of tourists accessing services ‣Free admissions offered ‣Money spent in local economy (direct expenditures) ‣Paid admissions,Commission for Arts and Culture
 Culture and recreation,2,Adult fitness report,Permits assigned for park areas where paid adult fitness classes occur,Park and Recreation
 Culture and recreation,4,Library circulation,Official circulation statistics,Library
-,,,,
 Public safety,1,FireRMS,List of incidents occuring in the city,Fire-Rescue
 Public safety,2,CRMS arrest log,"Adult arrest log details, including incident number|booking number|suspect details (name, race, sex, date of birth)|primary charge|beat",Police
 Public safety,2,Calls for service,"Incident details for most call types, including incident number|date/time|location|call type|disposition|beat",Police
@@ -81,7 +76,6 @@ Public safety,2,Police review case tracking,Excel case tracking log,Citizens' Re
 Public safety,2,Cliff rescues,Dates and locations of cliff rescues,Fire-Rescue lifeguard division
 Public safety,2,Beach infractions,"Misdemeanor and infraction tracking, type of cite and location",Fire-Rescue lifeguard division
 Public safety,2,CAD,Response time statistics,Fire-Rescue
-,,,,
 City infrastructure,1,City property,Shapefile of city-owned sites (check for similarities/differences),READ
 City infrastructure,1,City property,PUD-owned land (included in above dataset?),Public Utilities
 City infrastructure,2,City property,"City-owned land, Jupiter & Atlas sde (check for similarities/differences)",IT
@@ -93,6 +87,8 @@ City infrastructure,2,City property,Lifeguard stations,IT
 City infrastructure,2,City property,Building footprints of city-owned buildings,IT
 City infrastructure,2,Communication sites,Radio communication sites built and maintained by the City ‣city limits ‣countywide,IT
 City infrastructure,1,IMCAT feature classes,Public Utilities Capital Improvement Projects and O&M project information,Public Utilities
+City infrastructure,1,Capital improvement,"State of the CIP: reports issued quaterly according to Council policy 000-31 capital improvement program transparency. The report includes a summary of the last fiscal year, a preliminary update for the current fiscal year. Exhibits include a summary of projects complying with ADA requirements, a list of prior year expenditures by projects and an updated list of construction projects that are anticipated to be awarded in the current fiscal year.",Public Utilities
+City infrastructure,1,Capital improvement,Multi-year capital plan analysis spreadsheet,Financial Management
 City infrastructure,1,Undergrounding GIS,When undergrounding will be allocated,Transportation and Storm Water
 City infrastructure,1,Water mains,‣Water main break GIS data ‣Water main break totals by year (fiscal or annual) with type as crystal reports,Public Utilities
 City infrastructure,1,Street sweeping,Street sweeping route,Transportation and Storm Water
