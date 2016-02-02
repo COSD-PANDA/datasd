@@ -1,10 +1,12 @@
 /*
 The main SCSS file for everything, yep
 */
-
-@import "poole";
+@import "bootstrap";
+@import "modernbiz";
 @import "syntax";
-@import "lanyon";
 @import "sd";
 
+.carousel {
+	background: url("/assets/images/skyline.png") no-repeat scroll center bottom /cover;
+}
 

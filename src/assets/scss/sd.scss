@@ -30,7 +30,8 @@ $p_white: #000000;
 $p_black: #37424a;
 $p_beige: #dad7cb;
 
-$s_black: #1b242a;
+/* Secondary colors are marked as row / col from here: http://take.ms/At27q */;
+$s_black_1_6: #1b242a;
 
 $white: white;
 
@@ -39,9 +40,6 @@ $white: white;
 /** End Assists **/
 
 body {
-  width: 100%;
-  height:100%;
-  position: fixed;
   @include opensans;
 }
 
@@ -49,12 +47,26 @@ h1, h2, h3, h4, h5, h6 {
   @include opensans;
 }
 
-/** Sidebar **/
+/** Navbar **/
+img.logo {
+  background: $p_blue;
+  height: 40px;
+}
 
-  .sidebar {
-    background: $s_black;
+.sd-navbar-top.navbar-default {
+  background: $p_blue;
+  .navbar-brand {
+    padding: 0px;
+    padding-top:5px;
+    color: white;
   }
-  .social-links {
-    text-align: center;
+  span#title {
+    position: relative;
+    top:10px;
   }
+  li a {
+    color: white;
+  }
+}
+
 
