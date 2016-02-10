@@ -32,6 +32,8 @@ $p_beige: #dad7cb;
 
 /* Secondary colors are marked as row / col from here: http://take.ms/At27q */;
 $s_black_1_6: #1b242a;
+$s_blue_1_1: #00549f;
+$s_green_2_2: #009581;
 
 $white: white;
 
@@ -69,4 +71,19 @@ img.logo {
   }
 }
 
+#footer-bar {
+  background: #21282d;
+  height:30px;
+  position: fixed;
+  bottom:0px;
+  z-index: 9999999;
+  opacity: 0.99;
+  border-radius: 0px;
+  text-align: center;
+  line-height: 30px;
+  padding-left:10px;
+  padding-right:10px;
+  width: 100%;
+  color: rgb(227, 231, 234);
+}
 

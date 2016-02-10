@@ -4,39 +4,124 @@ title: Home
 ---
 {% include header_img.html %}
 
-<div class="container content">
-  <div class="posts">
-    {% for post in paginator.posts %}
-    <div class="post">
-      <h1 class="post-title">
-        <a href="{{ post.url }}">
-          {{ post.title }}
-        </a>
-      </h1>
+<div class="container fp-panel">
+<!-- Get Involved -->
+  <div class="row">
+      <div class="col-lg-12">
+          <h1 class="page-header">
+              Get Involved!
+          </h1>
+      </div>
 
-      <span class="post-date">{{ post.date | date_to_string }}</span>
+      <div class="col-md-4">
+          <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <span class="fa-stack fa-5x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                </span>
+              </div>
+              <div class="panel-body">
+                  <h4>Review and Vote on The Inventory</h4>
+                  <p><p>
+                  <a href="#" class="btn btn-primary btn-go">Go!</a>
+              </div>
+          </div>
+      </div>
 
-      {{ post.excerpt }}
+      <div class="col-md-4">
+          <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <span class="fa-stack fa-5x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                </span>
+              </div>
+              <div class="panel-body">
+                  <h4>Come to an OpenSD Meeting</h4>
+                  <p><p>
+                  <a href="#" class="btn btn-primary btn-go">Go!</a>
+              </div>
+          </div>
+      </div>
 
-      <a href="{{ post.url }}">Read more &raquo;</a>
-    </div>
-    {% endfor %}
+      <div class="col-md-4">
+          <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <span class="fa-stack fa-5x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                </span>
+              </div>
+              <div class="panel-body">
+                  <h4>Explore Upcoming Events</h4>
+                  <p><p>
+                  <a href="#" class="btn btn-primary btn-go">Go!</a>
+              </div>
+          </div>
+      </div>
   </div>
+  <!-- /.row -->
 
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
-    {% else %}
-      <span class="pagination-item older">Older</span>
-    {% endif %}
-    {% if paginator.previous_page %}
-      {% if paginator.page == 2 %}
-        <a class="pagination-item newer" href="/">Newer</a>
-      {% else %}
-        <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
-      {% endif %}
-    {% else %}
-      <span class="pagination-item newer">Newer</span>
-    {% endif %}
+  <!-- Get Informed -->
+  <div class="row">
+      <div class="col-lg-12">
+          <h1 class="page-header">
+              Get Informed!
+          </h1>
+      </div>
+
+      <div class="col-md-4">
+          <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <span class="fa-stack fa-5x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                </span>
+              </div>
+              <div class="panel-body">
+                  <h4>Read the Open Data Policy</h4>
+                  <p><p>
+                  <a href="#" class="btn btn-primary btn-go">Go!</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-4">
+          <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <span class="fa-stack fa-5x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                </span>
+              </div>
+              <div class="panel-body">
+                  <h4>Read the Implementation Plan</h4>
+                  <p><p>
+                  <a href="#" class="btn btn-primary btn-go">Go!</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-4">
+          <div class="panel panel-default text-center">
+              <div class="panel-heading">
+                <span class="fa-stack fa-5x">
+                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                  <i class="fa fa-tree fa-stack-1x fa-inverse"></i>
+                </span>
+              </div>
+              <div class="panel-body">
+                  <h4>Read the Council Update</h4>
+                  <p><p>
+                  <a href="#" class="btn btn-primary btn-go">Go!</a>
+              </div>
+          </div>
+      </div>
   </div>
+  <!-- /.row -->
+
+
+
+
 </div>

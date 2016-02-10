@@ -6647,5 +6647,42 @@ img.logo {
   .sd-navbar-top.navbar-default li a {
     color: white; }
 
+#footer-bar {
+  background: #21282d;
+  height: 30px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 9999999;
+  opacity: 0.99;
+  border-radius: 0px;
+  text-align: center;
+  line-height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  color: #e3e7ea; }
+
 .carousel {
   background: url("/assets/images/skyline.png") no-repeat scroll center bottom/cover; }
+
+.small-top-banner {
+  background: #00549f;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  padding-top: 3px;
+  padding-bottom: 3px; }
+  .small-top-banner a {
+    color: white;
+    text-decoration: underline; }
+
+.fp-panel h1.page-header {
+  font-weight: bold;
+  color: #ffa02f; }
+
+.fp-panel i.text-primary {
+  color: #00c7b2; }
+
+.fp-panel a.btn-go, .fp-panel a.btn-go:active, .fp-panel a.btn-go:hover {
+  background: #ffa02f;
+  border-color: #ffa02f; }
