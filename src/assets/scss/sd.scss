@@ -73,7 +73,7 @@ img.logo {
 }
 
 #footer-bar {
-  background: #21282d;
+  background: $s_blue_1_1;
   height:30px;
   position: fixed;
   bottom:0px;
@@ -86,5 +86,9 @@ img.logo {
   padding-right:10px;
   width: 100%;
   color: rgb(227, 231, 234);
+  a, a:hover, a:visited {
+    color: white;
+    text-decoration: underline;
+  };
 }
 

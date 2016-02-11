@@ -6649,7 +6649,7 @@ img.logo {
     color: white; }
 
 #footer-bar {
-  background: #21282d;
+  background: #00549f;
   height: 30px;
   position: fixed;
   bottom: 0px;
@@ -6662,6 +6662,9 @@ img.logo {
   padding-right: 10px;
   width: 100%;
   color: #e3e7ea; }
+  #footer-bar a, #footer-bar a:hover, #footer-bar a:visited {
+    color: white;
+    text-decoration: underline; }
 
 .carousel {
   background: url("/assets/images/skyline.jpg") no-repeat scroll center bottom/cover; }
@@ -6691,6 +6694,9 @@ h1.page-header {
   .fp-panel a.btn-go, .fp-panel a.btn-go:active, .fp-panel a.btn-go:hover {
     background: #ffa02f;
     border-color: #ffa02f; }
+
+#header-image {
+  padding-top: 30px; }
 
 .panel {
   background: white;
