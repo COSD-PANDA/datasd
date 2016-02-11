@@ -6663,7 +6663,7 @@ img.logo {
   color: #e3e7ea; }
 
 .carousel {
-  background: url("/assets/images/skyline.png") no-repeat scroll center bottom/cover; }
+  background: url("/assets/images/skyline.jpg") no-repeat scroll center bottom/cover; }
 
 .small-top-banner {
   background: #00549f;
@@ -6676,13 +6676,27 @@ img.logo {
     color: white;
     text-decoration: underline; }
 
-.fp-panel h1.page-header {
+.bg-wrapper {
+  background: url("/assets/images/skyline.jpg") no-repeat fixed center bottom/cover; }
+
+h1.page-header {
   font-weight: bold;
-  color: #ffa02f; }
+  color: #ffffff; }
 
-.fp-panel i.text-primary {
-  color: #00c7b2; }
+.fp-panel {
+  padding-bottom: 80px; }
+  .fp-panel i.text-primary {
+    color: #00c7b2; }
+  .fp-panel a.btn-go, .fp-panel a.btn-go:active, .fp-panel a.btn-go:hover {
+    background: #ffa02f;
+    border-color: #ffa02f; }
 
-.fp-panel a.btn-go, .fp-panel a.btn-go:active, .fp-panel a.btn-go:hover {
-  background: #ffa02f;
-  border-color: #ffa02f; }
+.panel {
+  background: white;
+  opacity: 0.95; }
+
+.page.container .page-content {
+  background: white;
+  opacity: 0.95;
+  padding: 30px;
+  margin-bottom: 80px; }

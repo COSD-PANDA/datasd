@@ -7,7 +7,7 @@ The main SCSS file for everything, yep
 @import "sd";
 
 .carousel {
-	background: url("/assets/images/skyline.png") no-repeat scroll center bottom /cover;
+	background: url("/assets/images/skyline.jpg") no-repeat scroll center bottom /cover;
 }
 
 .small-top-banner {
@@ -23,16 +23,40 @@ The main SCSS file for everything, yep
 	}
 }
 
+.bg-wrapper {
+	background: url('/assets/images/skyline.jpg') no-repeat fixed center bottom /cover;
+}
+
+h1.page-header {
+  font-weight: bold;
+  color: $p_white;
+}
+
 .fp-panel {
-	h1.page-header {
-	  font-weight: bold;
-	  color: $p_orange;
-	}
 	i.text-primary {
 		color: $p_green;
 	}
 	a.btn-go, a.btn-go:active, a.btn-go:hover {
 		background: $p_orange;
 		border-color: $p_orange;
+	}
+	padding-bottom:80px;
+}
+
+.section-header {
+
+}
+
+.panel {
+	background: white;
+	opacity: 0.95;
+}
+
+.page.container {
+	.page-content {
+		background: white;
+		opacity: 0.95;
+		padding:30px;
+		margin-bottom:80px;
 	}
 }
