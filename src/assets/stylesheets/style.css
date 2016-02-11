@@ -6625,7 +6625,8 @@ footer {
 /* Secondary colors are marked as row / col from here: http://take.ms/At27q */
 /** End Assists **/
 body {
-  font-family: "Open Sans",Helvetica, Arial, sans-serif; }
+  font-family: "Open Sans",Helvetica, Arial, sans-serif;
+  font-size: 1.5em; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans",Helvetica, Arial, sans-serif; }
@@ -6677,7 +6678,7 @@ img.logo {
     text-decoration: underline; }
 
 .bg-wrapper {
-  background: url("/assets/images/skyline.jpg") no-repeat fixed center bottom/cover; }
+  background: url("http://mrm-screen.s3.amazonaws.com/skyline.jpg") no-repeat fixed center bottom/cover; }
 
 h1.page-header {
   font-weight: bold;
