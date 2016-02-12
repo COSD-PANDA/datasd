@@ -71,6 +71,14 @@ gulp.task("fonts", function () {
     .pipe($.size({ title: "fonts" }));
 });
 
+// Copy over data to the "site" directory
+gulp.task("data", function () {
+  return gulp.src("src/assets/data/**")
+    .pipe(gulp.dest("site/assets/data"))
+    .pipe($.size({ title: "data" }));
+});
+
+
 // Copy xml and txt files to the "site" directory
 gulp.task("copy", function () {
   return gulp.src(["serve/*.txt", "serve/*.xml", "src/CNAME"])
@@ -89,7 +97,7 @@ gulp.task("html", ["styles"], function () {
     // Minify CSS
     .pipe($.if("*.css", $.minifyCss()))
     // Start cache busting the files
-    .pipe($.revAll({ ignore: [".eot", ".svg", ".ttf", ".woff"] }))
+    .pipe($.revAll({ ignore: [".eot", ".svg", ".ttf", ".woff", ".csv", ".json", ".jpg"] }))
     .pipe(assets.restore())
     // Conctenate your files based on what you specified in _layout/header.html
     .pipe($.useref())
@@ -184,5 +192,5 @@ gulp.task("build", ["jekyll:prod", "styles"], function () {});
 // Builds your site with the "build" command and then runs all the optimizations on
 // it and outputs it to "./site"
 gulp.task("publish", ["build"], function () {
-  gulp.start("html", "copy", "images", "fonts");
+  gulp.start("html", "copy", "images", "fonts", "data");
 });
