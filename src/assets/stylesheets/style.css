@@ -6626,7 +6626,7 @@ footer {
 /** End Assists **/
 body {
   font-family: "Open Sans",Helvetica, Arial, sans-serif;
-  font-size: 1.5em; }
+  font-size: 1.7em; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans",Helvetica, Arial, sans-serif; }
@@ -6705,5 +6705,26 @@ h1.page-header {
 .page.container .page-content {
   background: white;
   opacity: 0.95;
-  padding: 30px;
+  padding: 50px;
   margin-bottom: 80px; }
+
+.big-num {
+  background: #0098db;
+  color: white;
+  font-weight: bold;
+  font-size: 1em; }
+  .big-num .panel-heading {
+    background: transparent;
+    border: 0px;
+    font-size: 1em;
+    color: white; }
+  .big-num .chart-stage {
+    font-size: 1.5em; }
+
+.process-wrapper h2 {
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #0098db; }
+
+.process-wrapper .arrow-next {
+  color: #00c7b2; }

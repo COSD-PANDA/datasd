@@ -60,7 +60,34 @@ h1.page-header {
 	.page-content {
 		background: white;
 		opacity: 0.95;
-		padding:30px;
+		padding:50px;
 		margin-bottom:80px;
+	}
+}
+
+.big-num {
+	.panel-heading {
+		background: transparent;
+		border: 0px;
+		font-size: 1em;
+		color: white;
+	}
+	.chart-stage {
+		font-size: 1.5em;
+	}
+	background: $p_blue;
+	color: white;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.process-wrapper {
+	h2 {
+		font-weight: bold;
+		font-size:2.5em;
+		color: $p_blue;
+	}
+	.arrow-next {
+		color: $p_green;
 	}
 }

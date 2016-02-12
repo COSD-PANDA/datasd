@@ -1,0 +1,164 @@
+---
+layout: page
+title: Inventory
+---
+
+<h1>Inventory Process</h1>
+
+<h2>Purpose</h2>
+The purpose of the Data Inventory is to get a bird's eye view of data throughout our City departments that will assist stakeholders in identifying datasets they consider high value for publication.  However, we deliberately designed the inventory process to do much more, as follows:
+
+<ul>
+    <li>Establish a base level inventory of the data the City has at its disposal.</li>
+    <li>Create and collect a base level of attributes describing our City's data.</li>
+    <li>Establish a competent group of information coordinators across the departments.</li>
+    <li>Identify people currently working with and managing data.</li>
+    <li>Understand which of the City's software systems are authoritative for various pieces of information.</li>
+    <li>Identify critical data and be able to prioritize it for release or internal access.</li>
+</ul>
+
+<h2> Process Overview</h2>
+The first part of the inventory was to identify information coordinators from each of the 35 departments/programs we engaged.  Most departments assigned a single point of contact to work with the Chief Data Officer.  However, several larger departments chose to assign multiple coordinators to represent certain divisions.  We sought out information coordinators that are knowledgeable in the business level--of how the department operates, and how users make decisions based on that knowledge.  In total, we worked with 65 coordinators.
+
+If you would like a deeper dive into how we conducted the inventory, you can read a <a href="https://datasd.gitbooks.io/council_report/content/main/process_overview.html" target="_blank">deeper dive into the process on the City Council Report.</a>
+
+<h2>What we Found</h2>
+After running the initial process, we had compiled a list of 2048 datasets.  However, since the process was manual and driven by human beings, we knew that there was no way this is accurate.  It was time to comb through inventory manually.  Here's how we went about it:
+
+
+
+<div class="process-wrapper">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>2048</h2>
+            <h4>Datasets in the Initial Inventory </h4>
+            <div class="arrow-next">
+                <i class="fa fa-arrow-down fa-5x"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>1955</h2>
+            <h4>After excluding Datasets dealing with <strong>personnel</strong></h4>
+            <div class="arrow-next">
+                <i class="fa fa-arrow-down fa-5x"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>1795</h2>
+            <h4>After excluding <strong>duplicates</strong>, entries that are <strong>not datasets </strong> and entries that need <strong>clarification</strong> </h4>
+            <div class="arrow-next">
+                <i class="fa fa-arrow-down fa-5x"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>946</h2>
+            <h4>After excluding datasets marked <strong>sensitive</strong> or <strong>protected</strong> </h4>
+            <div class="arrow-next">
+                <i class="fa fa-arrow-down fa-5x"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>847</h2>
+            <h4>After excluding datasets with definite <strong>quality concerns</strong> </h4>
+            <div class="arrow-next">
+                <i class="fa fa-arrow-down fa-5x"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+            <h3>As we work with coordinators to describe them and get them ready for the inventory, they will show up below. 
+            </h3>
+            <div class="arrow-next">
+                <i class="fa fa-arrow-down fa-5x"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="row">
+    <div class="col-md-2">
+        <div class="panel panel-default text-center big-num">
+            <div class="panel-body">
+                <div class="chart-stage row" id="datasetsInv">
+                    
+                </div>
+                <div class="chart-bottom row">
+                    Datasets Inventoried
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <div class="panel panel-default text-center">
+            <div class="panel-body">
+                <div class="chart-stage" id="invByCat">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="panel panel-default text-center big-num">
+            <div class="panel-body">
+                <div class="chart-stage row" id="deptRep">
+                    35
+                </div>
+                <div class="chart-bottom row">
+                    Departments Represented
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="inventory-table">
+    <table 
+    cellpadding="0" 
+    cellspacing="0" 
+    border="0" 
+    class="table table-striped table-condensed" 
+    id="invTable">
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Dataset Name</th>
+            <th>Description</th>
+            <th>Vote</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        {% for invRow in site.data.inventory %}
+            {% if invRow.Category %}
+                <tr>
+                    <td> {{ invRow.Category }} </td>
+                    <td> {{ invRow.DatasetName }} </td>
+                    <td> {{ invRow.Description }} </td>
+                    <td> <a target="_blank" href="http://sdcdo.wufoo.com/forms/dataset-vote/def/field6={{ invRow.ID }}_{{ invRow.DatasetName | downcase | replace:' ','-' }}">Vote</a> </td>
+                </tr>
+            {% endif %}
+        {% endfor %}        
+
+    <tbody>
+
+    </table>
+</div>
