@@ -139,6 +139,7 @@ After running the initial process, we had compiled a list of 2048 datasets.  How
     id="invTable">
     <thead>
         <tr>
+            <th>Date Added</th>
             <th>Category</th>
             <th>Dataset Name</th>
             <th>Description</th>
@@ -150,6 +151,7 @@ After running the initial process, we had compiled a list of 2048 datasets.  How
         {% for invRow in site.data.inventory %}
             {% if invRow.Category %}
                 <tr>
+                    <td> {{ invRow.DateAdded }} </td>
                     <td> {{ invRow.Category }} </td>
                     <td> {{ invRow.DatasetName }} </td>
                     <td> {{ invRow.Description }} </td>

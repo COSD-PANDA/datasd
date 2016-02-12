@@ -1,4 +1,4 @@
-ID,Date Added,Category,DatasetName,Description
+ID,DateAdded,Category,DatasetName,Description
 1,2/11/16,Economy and community,Business tax data,"Active and inactive business tax accounts, including account|name|ownership type|address|phone|owner name|account creation date|start date|certificate expiration|naics code|activity description|employee count"
 2,2/11/16,Economy and community,Business tax data,"Active businesses by Business Improvement District, including account|name|ownership type|address|phone|owner name|account creation date|start date|certificate expiration|naics code|activity description|employee count"
 3,2/11/16,Economy and community,Vacant properties,Bank reported vacant/foreclosed properties
