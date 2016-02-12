@@ -6629,22 +6629,34 @@ body {
   font-size: 1.7em; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans",Helvetica, Arial, sans-serif; }
+  font-family: "Merriweather",Helvetica, Arial, sans-serif; }
 
 /** Navbar **/
 img.logo {
   background: #0098db;
-  height: 40px; }
+  height: 60px; }
+
+.panel {
+  border-radius: 0px; }
 
 .sd-navbar-top.navbar-default {
-  background: #0098db; }
+  background: #0098db;
+  height: 85px; }
+  .sd-navbar-top.navbar-default .navbar-header {
+    margin-top: 3px;
+    height: 80px; }
   .sd-navbar-top.navbar-default .navbar-brand {
     padding: 0px;
     padding-top: 5px;
     color: white; }
   .sd-navbar-top.navbar-default span#title {
     position: relative;
-    top: 10px; }
+    top: 19px;
+    font-size: 2em; }
+  .sd-navbar-top.navbar-default .navbar-nav {
+    margin-top: 20px; }
+  .sd-navbar-top.navbar-default .navbar-collapse {
+    background: #0098db; }
   .sd-navbar-top.navbar-default li a {
     color: white; }
 
@@ -6666,6 +6678,10 @@ img.logo {
     color: white;
     text-decoration: underline; }
 
+.btn-secondary {
+  background: #ffa02f;
+  color: white; }
+
 .carousel {
   background: url("/assets/images/skyline.jpg") no-repeat scroll center bottom/cover; }
 
@@ -6680,12 +6696,24 @@ img.logo {
     color: white;
     text-decoration: underline; }
 
-.bg-wrapper {
-  background: url("http://mrm-screen.s3.amazonaws.com/skyline.jpg") no-repeat fixed center bottom/cover; }
+#header-image {
+  /*background: url('http://mrm-screen.s3.amazonaws.com/skyline.jpg') no-repeat fixed center bottom /cover;*/
+  background: url("http://mrm-screen.s3.amazonaws.com/home-hero-1.jpg") no-repeat fixed center top/cover;
+  position: relative;
+  top: 34px;
+  height: 450px; }
 
-h1.page-header {
+.page-header {
   font-weight: bold;
-  color: #ffffff; }
+  color: #37424a;
+  text-align: center;
+  background: white;
+  opacity: 0.98;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  font-size: 3em; }
 
 .fp-panel {
   padding-bottom: 80px; }
@@ -6700,13 +6728,14 @@ h1.page-header {
 
 .panel {
   background: white;
-  opacity: 0.95; }
+  opacity: 0.98; }
 
 .page.container .page-content {
   background: white;
-  opacity: 0.95;
+  opacity: 0.98;
   padding: 50px;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  padding-top: 1px; }
 
 .big-num {
   background: #0098db;
@@ -6719,7 +6748,9 @@ h1.page-header {
     font-size: 1em;
     color: white; }
   .big-num .chart-stage {
-    font-size: 1.5em; }
+    font-size: 4em; }
+  .big-num .chart-bottom {
+    font-size: 0.9em; }
 
 .process-wrapper h2 {
   font-weight: bold;
@@ -6728,3 +6759,63 @@ h1.page-header {
 
 .process-wrapper .arrow-next {
   color: #00c7b2; }
+
+#inventory-table {
+  background: #f6f6f6;
+  padding: 20px;
+  font-size: 0.8em; }
+  #inventory-table tr.light {
+    background: transparent; }
+  #inventory-table tr.dark {
+    background: #E4E9EB; }
+  #inventory-table th {
+    font-family: "Merriweather",Helvetica, Arial, sans-serif; }
+
+.jumbo-intro {
+  background: rgba(0, 0, 0, 0.35);
+  color: white;
+  padding: 30px; }
+  .jumbo-intro .cta-box {
+    background: rgba(0, 0, 0, 0.35);
+    padding: 30px; }
+
+#inventory .panel-heading {
+  background-image: url("http://take.ms/K0n7c"); }
+
+#opensd .panel-heading {
+  background-image: url("http://take.ms/GK1Gk"); }
+
+#opengov .panel-heading {
+  background-image: url("http://take.ms/WjYwC"); }
+
+#sdmaps .panel-heading {
+  background-image: url("http://take.ms/5AThk"); }
+
+#odpolicy .panel-heading {
+  background-image: url("http://mrm-screen.s3.amazonaws.com/14324-illustration-of-a-book-pv.png"); }
+
+#councilupdate .panel-heading {
+  background-image: url("http://take.ms/FJnAS"); }
+
+#pasite .panel-heading {
+  background-image: url("http://take.ms/bevC1"); }
+
+.fp-panel .panel-heading {
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  height: 250px;
+  border: 0px;
+  background-color: white; }
+
+.fp-panel .panel-body {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-family: "Merriweather",Helvetica, Arial, sans-serif;
+  padding: 5px;
+  padding-left: 10px;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  border: 0px; }

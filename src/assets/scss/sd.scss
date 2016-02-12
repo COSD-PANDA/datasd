@@ -37,6 +37,15 @@ $s_green_2_2: #009581;
 
 $white: white;
 
+$off_white: #f6f6f6;
+$table_dark: #E4E9EB;
+$table_light: transparent;
+
+$trans_light: rgba(0,0,0,0.35);
+$trans_dark: rgba(0,0,0,0.70);
+
+$bg_opacity: 0.98;
+
 
 
 /** End Assists **/
@@ -47,17 +56,25 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @include opensans;
+  @include merriweather;
 }
 
 /** Navbar **/
 img.logo {
   background: $p_blue;
-  height: 40px;
+  height: 60px;
+}
+
+.panel {
+  border-radius: 0px;
 }
 
 .sd-navbar-top.navbar-default {
   background: $p_blue;
+  .navbar-header {
+    margin-top: 3px;
+    height:80px;
+  }
   .navbar-brand {
     padding: 0px;
     padding-top:5px;
@@ -65,11 +82,21 @@ img.logo {
   }
   span#title {
     position: relative;
-    top:10px;
+    top:19px;
+    font-size: 2em;
   }
+  .navbar-nav {
+    margin-top:20px;
+  }
+
+  .navbar-collapse {
+    background: $p_blue;
+  }
+
   li a {
     color: white;
   }
+  height: 85px;
 }
 
 #footer-bar {
@@ -90,5 +117,10 @@ img.logo {
     color: white;
     text-decoration: underline;
   };
+}
+
+.btn-secondary {
+  background: $p_orange;
+  color: white;
 }
 

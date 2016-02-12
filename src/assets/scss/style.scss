@@ -23,13 +23,25 @@ The main SCSS file for everything, yep
 	}
 }
 
-.bg-wrapper {
-	background: url('http://mrm-screen.s3.amazonaws.com/skyline.jpg') no-repeat fixed center bottom /cover;
+#header-image {
+	/*background: url('http://mrm-screen.s3.amazonaws.com/skyline.jpg') no-repeat fixed center bottom /cover;*/
+	background: url('http://mrm-screen.s3.amazonaws.com/home-hero-1.jpg') no-repeat fixed center top /cover;
+	position: relative;
+	top:34px;
+	height: 450px;
 }
 
-h1.page-header {
+.page-header {
   font-weight: bold;
-  color: $p_white;
+  color: $p_black;
+  text-align: center;
+  background: white;
+  opacity: $bg_opacity;
+  padding-top:25px;
+  padding-bottom:30px;
+  margin-bottom:0px;
+  border-bottom:0px;
+  font-size: 3em;
 }
 
 .fp-panel {
@@ -47,21 +59,18 @@ h1.page-header {
 	padding-top:30px;
 }
 
-.section-header {
-
-}
-
 .panel {
 	background: white;
-	opacity: 0.95;
+	opacity: $bg_opacity;
 }
 
 .page.container {
 	.page-content {
 		background: white;
-		opacity: 0.95;
+		opacity: $bg_opacity;
 		padding:50px;
 		margin-bottom:80px;
+		padding-top:1px;
 	}
 }
 
@@ -73,7 +82,10 @@ h1.page-header {
 		color: white;
 	}
 	.chart-stage {
-		font-size: 1.5em;
+		font-size: 4em;
+	}
+	.chart-bottom {
+		font-size: 0.9em;
 	}
 	background: $p_blue;
 	color: white;
@@ -90,4 +102,85 @@ h1.page-header {
 	.arrow-next {
 		color: $p_green;
 	}
+}
+
+#inventory-table {
+	background: $off_white;
+	padding:20px;
+	font-size:0.8em;
+	tr.light {
+		background: $table_light;
+	}
+	tr.dark {
+		background: $table_dark;
+	}
+	th {
+		@include merriweather;
+	}
+}
+
+.jumbo-intro {
+	background: $trans_light;
+	color:white;
+	.cta-box {
+		background: $trans_light;
+		padding:30px;
+		.btn {
+			
+		}
+	}
+	padding:30px;
+
+}
+
+#inventory .panel-heading{
+	background-image: url("http://take.ms/K0n7c");
+}
+
+#opensd .panel-heading{
+	background-image: url("http://take.ms/GK1Gk");
+}
+
+#opengov .panel-heading {
+	background-image: url("http://take.ms/WjYwC");
+}
+
+#sdmaps .panel-heading {
+	background-image: url("http://take.ms/5AThk");
+}
+
+#odpolicy .panel-heading {
+	background-image: url("http://mrm-screen.s3.amazonaws.com/14324-illustration-of-a-book-pv.png");
+}
+
+#councilupdate .panel-heading{
+	background-image: url("http://take.ms/FJnAS");
+}
+
+#pasite .panel-heading {
+	background-image: url("http://take.ms/bevC1");
+}
+
+
+
+.fp-panel .panel-heading {
+	background-size: cover;
+	background-position-x:50%;
+	background-position-y: 100%;
+	background-repeat: no-repeat;
+	height: 250px;
+	border: 0px;
+	background-color:white;
+}
+
+.fp-panel .panel-body {
+	background: $trans_dark;
+	color:white;
+	@include merriweather;
+	padding: 5px;
+	padding-left: 10px;
+	position: relative;
+	bottom: 0px;
+	width:100%;
+	border:0px;
 }

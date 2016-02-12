@@ -8,7 +8,8 @@ $(document).ready(function() {
 
 	// Initilize the DataTable object and put settings in
 	window.inventory = $("#invTable").DataTable({
-	    "order": [[ 2, "desc" ]]
+	    "order": [[ 2, "desc" ]],
+	    "stripeClasses": [ 'dark', 'light' ]
 	 });
 	$('#datasetsInv').text(window.inventory.data().length);
 	//"#invByCat"
