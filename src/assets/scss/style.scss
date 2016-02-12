@@ -29,7 +29,15 @@ The main SCSS file for everything, yep
 	position: relative;
 	top:34px;
 	height: 450px;
+	padding-top:30px;
 }
+
+#header-image.small{
+	background: url('http://mrm-screen.s3.amazonaws.com/home-hero-1-1.jpg') no-repeat fixed center top /cover;
+	height: 300px;
+	padding-top:0px;
+}
+
 
 .page-header {
   font-weight: bold;
@@ -37,11 +45,17 @@ The main SCSS file for everything, yep
   text-align: center;
   background: white;
   opacity: $bg_opacity;
-  padding-top:25px;
-  padding-bottom:30px;
+  padding-top:55px;
+  padding-bottom:55px;
   margin-bottom:0px;
   border-bottom:0px;
   font-size: 3em;
+
+}
+
+.section-header {
+	padding-left:0px;
+	padding-right:0px;
 }
 
 .fp-panel {
@@ -55,9 +69,6 @@ The main SCSS file for everything, yep
 	padding-bottom:80px;
 }
 
-#header-image {
-	padding-top:30px;
-}
 
 .panel {
 	background: white;
@@ -133,6 +144,16 @@ The main SCSS file for everything, yep
 
 }
 
+.title-intro {
+	background: transparent;
+	color:black;
+	position: relative;
+	top:110px;
+	
+
+
+}
+
 #inventory .panel-heading{
 	background-image: url("http://take.ms/K0n7c");
 }
@@ -183,4 +204,8 @@ The main SCSS file for everything, yep
 	bottom: 0px;
 	width:100%;
 	border:0px;
+}
+
+.page-container {
+	margin-top: 34px;
 }

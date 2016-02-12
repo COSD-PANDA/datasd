@@ -6701,19 +6701,29 @@ img.logo {
   background: url("http://mrm-screen.s3.amazonaws.com/home-hero-1.jpg") no-repeat fixed center top/cover;
   position: relative;
   top: 34px;
-  height: 450px; }
+  height: 450px;
+  padding-top: 30px; }
+
+#header-image.small {
+  background: url("http://mrm-screen.s3.amazonaws.com/home-hero-1-1.jpg") no-repeat fixed center top/cover;
+  height: 300px;
+  padding-top: 0px; }
 
 .page-header {
   font-weight: bold;
   color: #37424a;
   text-align: center;
   background: white;
-  opacity: 0.98;
-  padding-top: 25px;
-  padding-bottom: 30px;
+  opacity: 0.95;
+  padding-top: 55px;
+  padding-bottom: 55px;
   margin-bottom: 0px;
   border-bottom: 0px;
   font-size: 3em; }
+
+.section-header {
+  padding-left: 0px;
+  padding-right: 0px; }
 
 .fp-panel {
   padding-bottom: 80px; }
@@ -6723,16 +6733,13 @@ img.logo {
     background: #ffa02f;
     border-color: #ffa02f; }
 
-#header-image {
-  padding-top: 30px; }
-
 .panel {
   background: white;
-  opacity: 0.98; }
+  opacity: 0.95; }
 
 .page.container .page-content {
   background: white;
-  opacity: 0.98;
+  opacity: 0.95;
   padding: 50px;
   margin-bottom: 80px;
   padding-top: 1px; }
@@ -6779,6 +6786,12 @@ img.logo {
     background: rgba(0, 0, 0, 0.35);
     padding: 30px; }
 
+.title-intro {
+  background: transparent;
+  color: black;
+  position: relative;
+  top: 110px; }
+
 #inventory .panel-heading {
   background-image: url("http://take.ms/K0n7c"); }
 
@@ -6819,3 +6832,6 @@ img.logo {
   bottom: 0px;
   width: 100%;
   border: 0px; }
+
+.page-container {
+  margin-top: 34px; }
