@@ -6662,7 +6662,7 @@ img.logo {
 
 #footer-bar {
   background: #00549f;
-  height: 30px;
+  height: 60px;
   position: fixed;
   bottom: 0px;
   z-index: 9999999;
@@ -6681,6 +6681,49 @@ img.logo {
 .btn-secondary {
   background: #ffa02f;
   color: white; }
+
+/*responsive menu */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  top: 18px; }
+
+.navbar-toggle {
+  background-color: transparent;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+  margin-right: 5px; }
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #334A6D; }
+
+.navbar-toggle .icon-bar {
+  height: 4px; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff; }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .jumbo-intro {
+    padding-bottom: 0px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .jumbo-intro {
+    padding-bottom: 0px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  #footer-bar {
+    height: 30px; } }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  #footer-bar {
+    height: 30px; } }
 
 .carousel {
   background: url("/assets/images/skyline.jpg") no-repeat scroll center bottom/cover; }
@@ -6701,12 +6744,12 @@ img.logo {
   background: url("http://mrm-screen.s3.amazonaws.com/home-hero-1.jpg") no-repeat fixed center top/cover;
   position: relative;
   top: 34px;
-  height: 450px;
+  min-height: 450px;
   padding-top: 30px; }
 
 #header-image.small {
   background: url("http://mrm-screen.s3.amazonaws.com/home-hero-1-1.jpg") no-repeat fixed center top/cover;
-  height: 300px;
+  min-height: 300px;
   padding-top: 0px; }
 
 .page-header {
@@ -6740,7 +6783,7 @@ img.logo {
 .page.container .page-content {
   background: white;
   opacity: 0.95;
-  padding: 50px;
+  padding: 10px;
   margin-bottom: 80px;
   padding-top: 1px; }
 
@@ -6835,3 +6878,24 @@ img.logo {
 
 .page-container {
   margin-top: 34px; }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .jumbo-intro {
+    padding-bottom: 0px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .jumbo-intro {
+    padding-bottom: 0px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .jumbo-intro {
+    padding-bottom: 0px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .page.container .page-content {
+    padding: 50px; } }

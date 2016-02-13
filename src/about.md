@@ -47,11 +47,12 @@ Open Data lets us:
 
 ## How did Open Data Come to San Diego?
 
-If an image is worth 1000 words, is a timeline worth a 10,000?  Decided for yourself -- check out the timeline for how Open Data came to be in the City of San Diego!
+If an image is worth 1000 words, is a timeline worth a 10,000?  Decide for yourself -- check out the timeline for how Open Data came to be in the City of San Diego!
 
 <iframe src="http://cityofsandiego.github.io/tl.html" width="100%" height="500px"></iframe>
 
 ## What are the Goals of DataSD?
+
 
 ### 1. Increase data literacy within the City and with those who interact with the City.
 There are various levels of understanding of what are data, metadata, Open Data, etc.

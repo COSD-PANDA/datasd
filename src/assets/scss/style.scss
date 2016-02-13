@@ -28,13 +28,13 @@ The main SCSS file for everything, yep
 	background: url('http://mrm-screen.s3.amazonaws.com/home-hero-1.jpg') no-repeat fixed center top /cover;
 	position: relative;
 	top:34px;
-	height: 450px;
+	min-height: 450px;
 	padding-top:30px;
 }
 
 #header-image.small{
 	background: url('http://mrm-screen.s3.amazonaws.com/home-hero-1-1.jpg') no-repeat fixed center top /cover;
-	height: 300px;
+	min-height: 300px;
 	padding-top:0px;
 }
 
@@ -79,7 +79,7 @@ The main SCSS file for everything, yep
 	.page-content {
 		background: white;
 		opacity: $bg_opacity;
-		padding:50px;
+		padding:10px;
 		margin-bottom:80px;
 		padding-top:1px;
 	}
@@ -208,4 +208,37 @@ The main SCSS file for everything, yep
 
 .page-container {
 	margin-top: 34px;
+}
+
+
+ /*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .jumbo-intro{
+		padding-bottom:0px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	.jumbo-intro{
+		padding-bottom:0px;
+	}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.jumbo-intro{
+		padding-bottom:0px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.page.container .page-content {
+		padding:50px;
+	}
 }
