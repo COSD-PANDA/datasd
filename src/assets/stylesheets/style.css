@@ -6883,17 +6883,23 @@ img.logo {
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
   .jumbo-intro {
-    padding-bottom: 0px; } }
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
   .jumbo-intro {
-    padding-bottom: 0px; } }
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .jumbo-intro {
-    padding-bottom: 0px; } }
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
