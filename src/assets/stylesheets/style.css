@@ -6903,7 +6903,9 @@ img.logo {
     padding-left: 10px;
     padding-right: 10px; }
   .sd-navbar-top.navbar-default .navbar-header {
-    height: 0px; } }
+    height: 0px; }
+  #header-image {
+    background-position-y: -170px; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
@@ -6918,7 +6920,7 @@ img.logo {
     background-size: cover;
     background-position-y: -150px; } }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .navbar-header {
     float: none; }
   .navbar-left, .navbar-right {

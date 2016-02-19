@@ -245,6 +245,9 @@ The main SCSS file for everything, yep
 	.sd-navbar-top.navbar-default .navbar-header {
 		height:0px;
 	}
+	#header-image {
+		background-position-y: -170px;
+	}
 	
 }
 
@@ -265,7 +268,7 @@ The main SCSS file for everything, yep
 	}
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
     .navbar-header {
         float: none;
     }
