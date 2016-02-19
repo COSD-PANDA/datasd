@@ -6812,7 +6812,7 @@ img.logo {
   color: #00c7b2; }
 
 #inventory-table {
-  background: #f6f6f6;
+  background: transparent;
   padding: 20px;
   font-size: 0.8em; }
   #inventory-table tr.light {
@@ -6836,6 +6836,9 @@ img.logo {
   color: black;
   position: relative;
   top: 110px; }
+
+.add-dataset {
+  margin-top: 30px; }
 
 #inventory .panel-heading {
   background-image: url("http://take.ms/K0n7c"); }

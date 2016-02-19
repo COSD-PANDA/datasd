@@ -126,13 +126,12 @@ title: Inventory
     cellpadding="0" 
     cellspacing="0" 
     border="0" 
-    class="table table-striped table-condensed" 
+    class="table table-striped table-bordered" 
     id="invTable">
     <thead>
         <tr>
             <th>Date Added</th>
             <th>Category</th>
-            <th>Dataset Name</th>
             <th>Description</th>
             <th>Vote</th>
         </tr>
@@ -144,9 +143,8 @@ title: Inventory
                 <tr>
                     <td> {{ invRow.DateAdded }} </td>
                     <td> {{ invRow.Category }} </td>
-                    <td> {{ invRow.DatasetName }} </td>
                     <td> {{ invRow.Description }} </td>
-                    <td> <a target="_blank" href="http://sdcdo.wufoo.com/forms/dataset-vote/def/field6={{ invRow.ID }}_{{ invRow.DatasetName | downcase | replace:' ','-' }}">Vote</a> </td>
+                    <td> <a target="_blank" href="http://sdcdo.wufoo.com/forms/dataset-vote/def/field6=ds_id_{{ invRow.ID }}">Vote</a> </td>
                 </tr>
             {% endif %}
         {% endfor %}        
@@ -155,3 +153,12 @@ title: Inventory
 
     </table>
 </div>
+
+<div class="row add-dataset">
+    <div class="col-md-6 col-md-offset-5">
+        Don't see a dataset here that you thought you would?  We could still be getting it ready for the inventory, but let us know just in case so we can talk to our coordinators by filling out <a title="Suggest dataset" href="https://sdcdo.wufoo.com/forms/suggest-a-dataset/" target="_blank">this form. </a>
+    </div>
+    <div class="col-md-1">
+        <a title="Suggest dataset" href="https://sdcdo.wufoo.com/forms/suggest-a-dataset/" target="_blank"><i class="fa fa-5x fa-plus-square-o"></i></a>
+    </div>
+</div>  
