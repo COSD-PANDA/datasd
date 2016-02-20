@@ -35,6 +35,8 @@ $s_black_1_6: #1b242a;
 $s_blue_1_1: #00549f;
 $s_green_2_2: #009581;
 
+$nav_strip_blue: #005bbb;
+
 $white: white;
 
 $off_white: #f6f6f6;
@@ -45,6 +47,8 @@ $trans_light: rgba(0,0,0,0.35);
 $trans_dark: rgba(0,0,0,0.70);
 
 $bg_opacity: 0.95;
+
+$footer_dark: #21282d;
 
 
 
@@ -69,7 +73,19 @@ img.logo {
   border-radius: 0px;
 }
 
+#sd-bar {
+  background: $nav_strip_blue;
+  height: 37px;
+  color: white;
+  a:hover, a, a:visited {
+    color: white;
+    font-size: 0.7em;
+    line-height: 37px;
+  };
+}
+
 .sd-navbar-top.navbar-default {
+  margin-top:30px;
   background: $p_blue;
   .navbar-header {
     margin-top: 3px;
@@ -100,7 +116,7 @@ img.logo {
 }
 
 #footer-bar {
-  background: $s_blue_1_1;
+  background: $footer_dark;
   height:60px;
   position: fixed;
   bottom:0px;
@@ -117,6 +133,9 @@ img.logo {
     color: white;
     text-decoration: underline;
   };
+  img.sdlogo {
+    height:25px;
+  }
 }
 
 .btn-secondary {

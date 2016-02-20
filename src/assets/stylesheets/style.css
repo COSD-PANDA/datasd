@@ -6639,7 +6639,17 @@ img.logo {
 .panel {
   border-radius: 0px; }
 
+#sd-bar {
+  background: #005bbb;
+  height: 37px;
+  color: white; }
+  #sd-bar a:hover, #sd-bar a, #sd-bar a:visited {
+    color: white;
+    font-size: 0.7em;
+    line-height: 37px; }
+
 .sd-navbar-top.navbar-default {
+  margin-top: 30px;
   background: #0098db;
   height: 85px; }
   .sd-navbar-top.navbar-default .navbar-header {
@@ -6661,7 +6671,7 @@ img.logo {
     color: white; }
 
 #footer-bar {
-  background: #00549f;
+  background: #21282d;
   height: 60px;
   position: fixed;
   bottom: 0px;
@@ -6677,6 +6687,8 @@ img.logo {
   #footer-bar a, #footer-bar a:hover, #footer-bar a:visited {
     color: white;
     text-decoration: underline; }
+  #footer-bar img.sdlogo {
+    height: 25px; }
 
 .btn-secondary {
   background: #ffa02f;

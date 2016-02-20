@@ -35,7 +35,7 @@ Understanding what data we have is crucial to both Open Data and data management
 
 ###Support increased use of data in decision making, as well as innovations in Open Data use
 
-We have a talented City workforce that makes data-driven decisions every day. In addition, fostering and expanding interest in government data among residents and other users is crucial to realizing the benefits of an Open Data program.
+We have a talented City workforce that makes data-enabled decisions every day. In addition, fostering and expanding interest in government data among residents and other users is crucial to realizing the benefits of an Open Data program.
 
 ## How did Open Data Come to San Diego?
 
