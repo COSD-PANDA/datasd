@@ -110,6 +110,7 @@ The main SCSS file for everything, yep
 		font-weight: bold;
 		font-size:2.5em;
 		color: $p_blue;
+		margin-top:0px;
 	}
 	.arrow-next {
 		color: $p_green;
@@ -211,6 +212,53 @@ The main SCSS file for everything, yep
 .page-container {
 	margin-top: 34px;
 }
+
+  .datasets-gr{
+    background-repeat: no-repeat;
+    height:110px;
+    padding-bottom:15px;
+  }
+  .datasets-2048{
+    background-image: url("/assets/images/datasets-2048-lg.png");
+  }
+  .datasets-1955{
+    background-image: url("/assets/images/datasets-1955-lg.png");
+  }
+  .datasets-1793{
+    background-image: url("/assets/images/datasets-1793-lg.png");
+  }
+  .datasets-951{
+    background-image: url("/assets/images/datasets-951-lg.png");
+  }
+  .datasets-854{
+    background-image: url("/assets/images/datasets-854-lg.png");
+  }
+
+  .process-wrapper{
+  padding:10px 0 10px 0;
+  }
+
+    .datasets-gr{
+    background-repeat: no-repeat;
+    height:110px;
+    padding-bottom:15px;
+  }
+  .datasets-2048{
+    background-image: url("/assets/images/datasets-2048-lg.png");
+  }
+  .datasets-1955{
+    background-image: url("/assets/images/datasets-1955-lg.png");
+  }
+  .datasets-1793{
+    background-image: url("/assets/images/datasets-1793-lg.png");
+  }
+  .datasets-951{
+    background-image: url("/assets/images/datasets-951-lg.png");
+  }
+  .datasets-854{
+    background-image: url("/assets/images/datasets-854-lg.png");
+  }
+
 
 
  /*==========  Mobile First Method  ==========*/
