@@ -14,3 +14,5 @@ limit_posts: 0
 
 source: 'src'
 destination: 'serve'
+
+googleTagmanager: "GTM-MPMVDJ"

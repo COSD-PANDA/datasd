@@ -77,11 +77,12 @@ title: Inventory
 
         {% for invRow in site.data.inventory %}
             {% if invRow.Category %}
-                <tr>
-                    <td> {{ invRow.DateAdded }} </td>
-                    <td> {{ invRow.Category }} </td>
-                    <td> {{ invRow.Description }} </td>
-                    <td> <a target="_blank" href="https://sdcdo.wufoo.com/forms/vote-for-a-dataset/def/field6=ds_id_{{ invRow.ID }}">Vote</a> </td>
+                {% capture linkID %}ds_id_{{ invRow.ID }}{% endcapture %}
+                <tr id="{{ linkID }}">
+                    <td class="dateAdded"> {{ invRow.DateAdded }} </td>
+                    <td class="cat"> {{ invRow.Category }} </td>
+                    <td class="desc"> {{ invRow.Description }} </td>
+                    <td class="dateAdded"> <a target="_blank" class="vote-link" id="{{ linkID }}" href="https://sdcdo.wufoo.com/forms/vote-for-a-dataset/def/field6={{ linkID }}">Vote</a> </td>
                 </tr>
             {% endif %}
         {% endfor %}        
