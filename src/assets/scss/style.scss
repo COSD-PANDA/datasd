@@ -34,8 +34,8 @@ The main SCSS file for everything, yep
 
 #header-image.small{
 	background: url('http://mrm-screen.s3.amazonaws.com/home-hero-1-1.jpg') no-repeat fixed center;
-	background-position-y: top;
-	min-height: 300px;
+	background-position-y: -80px;
+	min-height: 200px;
 	padding-top:0px;
 }
 
@@ -133,6 +133,7 @@ The main SCSS file for everything, yep
 }
 
 .jumbo-intro {
+	margin-top:5%;
 	background: $trans_light;
 	color:white;
 	.cta-box {
@@ -261,6 +262,23 @@ The main SCSS file for everything, yep
     background-image: url("/assets/images/datasets-854-lg.png");
   }
 
+  .icon-front-center {
+  	color:white;
+  }
+
+  .icon-circle-thin {
+  	color: $p_blue;
+  }
+
+  .icon-circle {
+  	color: $footer_dark;
+  }
+
+  #pre-footer-bar {
+  	position: relative;
+  	bottom:45px;
+  }
+
 
 
  /*==========  Mobile First Method  ==========*/
@@ -282,6 +300,10 @@ The main SCSS file for everything, yep
 		padding-right:10px;
 	}
 
+	#header-image.small {
+		display: none;
+	}
+
 
 }
 
@@ -298,6 +320,11 @@ The main SCSS file for everything, yep
 	#header-image {
 		background-position-y: -170px;
 	}
+
+	#header-image.small {
+		min-height: 300px;
+		display: block;
+	}
 	
 }
 
@@ -308,17 +335,15 @@ The main SCSS file for everything, yep
 	}
 	#header-image.small {
 		background-position-x: center;
-		background-size: cover;
-		background-position-y: -150px;
+		background-position-y: 0px;
 	}
 	#header-image {
 		background-position-x: center;
-		background-size: cover;
-		background-position-y: -150px;
+		background-position-y: 0px;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767	px) {
     .navbar-header {
         float: none;
     }
