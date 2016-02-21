@@ -1,9 +1,0 @@
-- dashboard:
-  id: "dashboard"
-  title: "Dashboard"
-  href: "/"
-
-- about:
-  id: "about"
-  title: "About"
-  href: "/"
