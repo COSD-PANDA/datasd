@@ -1,0 +1,10 @@
+<a title="{{ include.title }}" href="{{ include.href }}" id="{{ include.id }}" {% if include.width %} class="{{ include.width }}" {% else %} class="col-md-6" {% endif %} {% if include.target %} target="{{ include.target }}" {% endif %}>
+    <div class="panel panel-default text-center">
+        <div class="panel-heading">
+            <div class="panel-body">
+                <h2>{{ include.title }}</h2>
+            </div>
+        </div>
+        
+    </div>
+</a>

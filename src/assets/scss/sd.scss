@@ -44,7 +44,7 @@ $table_dark: #E4E9EB;
 $table_light: transparent;
 
 $trans_light: rgba(0,0,0,0.35);
-$trans_dark: rgba(0,0,0,0.70);
+$trans_dark: rgba(0,0,0,0.80);
 
 $bg_opacity: 0.95;
 
@@ -57,6 +57,7 @@ $footer_dark: #21282d;
 body {
   @include opensans;
   font-size: 1.7em;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {

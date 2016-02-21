@@ -6626,7 +6626,8 @@ footer {
 /** End Assists **/
 body {
   font-family: "Open Sans",Helvetica, Arial, sans-serif;
-  font-size: 1.7em; }
+  font-size: 1.7em;
+  overflow-x: hidden; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Merriweather",Helvetica, Arial, sans-serif; }
@@ -6872,8 +6873,14 @@ a .hidden-link-text {
 #councilupdate .panel-heading {
   background-image: url("http://take.ms/FJnAS"); }
 
+#pasite .panel-body {
+  padding-top: 13px; }
+
 #pasite .panel-heading {
   background-image: url("http://take.ms/bevC1"); }
+
+.fp-panel a, a:hover, a:visited {
+  text-decoration: none; }
 
 .fp-panel .panel-heading {
   background-size: cover;
@@ -6882,18 +6889,21 @@ a .hidden-link-text {
   background-repeat: no-repeat;
   height: 250px;
   border: 0px;
-  background-color: white; }
+  background-color: white;
+  padding: 0px; }
 
 .fp-panel .panel-body {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.8);
   color: white;
   font-family: "Merriweather",Helvetica, Arial, sans-serif;
   padding: 5px;
   padding-left: 10px;
   position: relative;
-  bottom: 0px;
+  top: 125px;
   width: 100%;
-  border: 0px; }
+  border: 0px;
+  height: 125px;
+  padding-top: 25px; }
 
 .page-container {
   margin-top: 34px; }
@@ -6952,7 +6962,11 @@ a .hidden-link-text {
 
 #pre-footer-bar {
   position: relative;
-  bottom: 45px; }
+  bottom: 45px;
+  z-index: 9999999;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
