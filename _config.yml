@@ -3,7 +3,7 @@
 title: DataSD
 description: DataSD
 tagline: 
-url: "http://localhost:3000"
+url: localhost:4000
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: src
