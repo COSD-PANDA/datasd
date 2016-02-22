@@ -9,9 +9,9 @@ Here, you can keep track of the City’s progress in implementing the Open Data 
 
 ## About open data
 
-The City collects, produces and stores an enormous amount of data. A few examples include crime counts, real-time parking meter revenue, traffic counts and capital projects. Right now, this data is kept in a number of different places and formats. 
+The City collects, produces and stores an enormous amount of data. A few examples include crime counts, parking meter revenue, traffic counts and capital projects. Right now, this data is kept in a number of different places and formats.
 
-If data repositories could be integrated and easily accessed, understanding of civic activity and policy would deepen. Transparency and accountability would increase. And the City would become a more efficient and data-driven leader in the global civic landscape. 
+If data repositories could be integrated and easily accessed, understanding of civic activity and policy will deepen. Transparency and accountability will increase. And the City will become a more efficient and data-driven leader in the global civic landscape.
 
 Opening up data would help staff and policymakers to make decisions, allow City employees to share information and empower residents to conduct analyses and build applications on top of the City’s data.
 
