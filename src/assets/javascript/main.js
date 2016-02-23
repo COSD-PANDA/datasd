@@ -46,6 +46,9 @@ $(document).ready(function() {
 				labels: false,
 				colors: {
 					"NumDatasets": "#00c7b2"
+				},
+				names: {
+					"NumDatasets": "Number of Datasets"
 				}
 			},
 			axis: {
