@@ -5,7 +5,6 @@ $(document).ready(function() {
 	});
 
 	$('#inventory-table a.vote-link').click(function(e){
-		console.log(this);
 		var linkID = $(this).attr("id");
 		var eventObject = {
 			keen: {
@@ -20,7 +19,22 @@ $(document).ready(function() {
 		Kclient.addEvent("invVotes", eventObject, function(err, res){
 			if(err) 
 				console.log(err);
-			console.log(res)
+			//console.log(res)
+		});
+	});
+
+	$('a#raw-data-dl').click(function(e){
+		var eventObject = {
+			keen: {
+				timestamp: new Date().toISOString()
+			},
+			count: 1
+		}
+
+		Kclient.addEvent("invDLs", eventObject, function(err, res){
+			if(err) 
+				console.log(err);
+			//console.log(res)
 		});
 	});
 
