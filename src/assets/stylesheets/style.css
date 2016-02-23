@@ -6962,11 +6962,11 @@ a .hidden-link-text {
 
 #pre-footer-bar {
   position: relative;
-  bottom: 45px;
   z-index: 9999999;
   padding-left: 10px;
   padding-right: 10px;
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 90px; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
