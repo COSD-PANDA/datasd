@@ -9,6 +9,7 @@ inventory <- read.csv(text = invURL)
 file.remove("./_data/inventory.csv")
 
 write.csv(inventory, "./_data/inventory.csv", row.names = FALSE)
+write.csv(inventory, "./assets/data/inventory.csv", row.names = FALSE)
 
 invByCat <- group_by(inventory, Category) %>% 
     count(Category) %>% 
