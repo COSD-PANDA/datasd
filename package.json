@@ -3,9 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "description": "Yeoman workflow for datasd",
-  "dependencies": {
-    "surge": "^0.17.7"
-  },
   "devDependencies": {
     "browser-sync": "^1.5.7",
     "del": "^1.1.1",
