@@ -357,6 +357,19 @@ The main SCSS file for everything, yep
 	}
 }
 
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	#header-image.small {
+		background-position-x: center;
+		background-position-y: -170px;
+		background-size:cover;
+	}
+	#header-image {
+		background-position-x: center;
+		background-position-y: 0px;
+	}
+}
+
 @media (max-width: 767	px) {
     .navbar-header {
         float: none;
