@@ -131,10 +131,10 @@ The main SCSS file for everything, yep
 
 .jumbo-intro {
 	margin-top:5%;
-	background: $trans_light;
+	background: $trans_dark;
 	color:white;
 	.cta-box {
-		background: $trans_light;
+		background: transparent;
 		padding:30px;
 		margin-bottom:25px;
 		.btn {

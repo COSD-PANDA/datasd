@@ -6838,11 +6838,11 @@ a .hidden-link-text {
 
 .jumbo-intro {
   margin-top: 5%;
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.8);
   color: white;
   padding: 30px; }
   .jumbo-intro .cta-box {
-    background: rgba(0, 0, 0, 0.35);
+    background: transparent;
     padding: 30px;
     margin-bottom: 25px; }
 
