@@ -128,7 +128,7 @@ gulp.task("deploy", function () {
     .pipe($.ghPages({
        branch: "gh-pages",
        cacheDir: ".publish",
-       remoteURL: remoteURL
+       remoteUrl: remoteURL
       }));
 });
 
