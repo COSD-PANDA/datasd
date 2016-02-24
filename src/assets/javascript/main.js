@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 		Kclient.addEvent("invVotes", eventObject, function(err, res){
 			if(err) 
-				//console.log(err);
+				console.log(err);
 			//console.log(res)
 		});
 	});
@@ -31,9 +31,9 @@ $(document).ready(function() {
 			count: 1
 		}
 
-		Kclient.addEvent("invDLs", eventObject, function(err, res){
-			if(err) 
-				//console.log(err);
+		Kclient.addEvent("invDLs", eventObject, function(err, res) {
+			 if(err) 
+				console.log(err);
 			//console.log(res)
 		});
 	});
