@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 		Kclient.addEvent("invVotes", eventObject, function(err, res){
 			if(err) 
-				console.log(err);
+				//console.log(err);
 			//console.log(res)
 		});
 	});
@@ -33,7 +33,7 @@ $(document).ready(function() {
 
 		Kclient.addEvent("invDLs", eventObject, function(err, res){
 			if(err) 
-				console.log(err);
+				//console.log(err);
 			//console.log(res)
 		});
 	});
@@ -46,7 +46,7 @@ $(document).ready(function() {
 	$('#datasetsInv').text(window.inventory.data().length);
 	//"#invByCat"
 	$.get("/assets/data/inv_by_cat.json", function(data) {
-		console.log(data);
+		//console.log(data);
 		data.Category.unshift("Category");
 		data.NumDatasets.unshift("NumDatasets");
 		c3.generate({
