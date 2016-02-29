@@ -1,5 +1,6 @@
 library(dplyr)
-library("RCurl")
+library(RCurl)
+library(rjson)
 setwd("~/Code/datasd/src")
 
 invSheetURL <- "https://docs.google.com/spreadsheets/d/1LAx0GyM-HNbqsKg5zp-sKB2ieQ5nQQChWgazBuqy8d4/pub?gid=970785642&single=true&output=csv"
