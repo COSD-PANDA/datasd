@@ -40,8 +40,14 @@ $(document).ready(function() {
 
 	// Initilize the DataTable object and put settings in
 	window.inventory = $("#invTable").DataTable({
-	    "order": [[ 2, "desc" ]],
-	    "stripeClasses": [ 'dark', 'light' ]
+	    "order": [[ 2, "asc" ]],
+	    "stripeClasses": [ 'dark', 'light' ],
+	    "columns": [
+	      null,
+	      null,
+	      null,
+	      { orderable: false }
+	    ]
 	 });
 	$('#datasetsInv').text(window.inventory.data().length);
 	//"#invByCat"
