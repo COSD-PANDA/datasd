@@ -137,8 +137,10 @@ The main SCSS file for everything, yep
 		background: transparent;
 		padding:30px;
 		margin-bottom:25px;
-		.btn {
-			
+	}
+	.welcome-intro {
+		a, a:hover, a:visited {
+			color: $p_orange;
 		}
 	}
 	padding:30px;

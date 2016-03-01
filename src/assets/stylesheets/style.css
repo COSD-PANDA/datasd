@@ -6845,6 +6845,8 @@ a .hidden-link-text {
     background: transparent;
     padding: 30px;
     margin-bottom: 25px; }
+  .jumbo-intro .welcome-intro a, .jumbo-intro .welcome-intro a:hover, .jumbo-intro .welcome-intro a:visited {
+    color: #ffa02f; }
 
 .title-intro {
   background: transparent;
