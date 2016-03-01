@@ -3,15 +3,13 @@
 ## Installation
 
 To install you need [Node.js][nodejs] (`>0.10.0`) and [Ruby][rubylang] (`> 1.9`)
-for Jekyll. 
+for Jekyll.
 
 ## Usage
 
 #### `gulp`
 
-The default task, this will automatically compile and open the site in your
-browser. A watch task runs in the background and detects when any files change,
-recompiles them if nessecary and updates your browser with BrowserSync.
+The default task, this will automatically compile and open the site in your browser. A watch task runs in the background and detects when any files change, recompiles them if necessary and updates your browser with BrowserSync.
 
 
 #### `gulp build`
