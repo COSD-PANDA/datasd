@@ -38,3 +38,5 @@ votesFull <- select(votes,
                     reason = Why.do.you.think.we.should.prioritize.this.dataset.higher,
                     vDate = Date.Created) %>%
             mutate(vDatasetId = as.numeric(vDatasetId))
+
+votesFull <- inner_join(votesFull, inventory, by=c("vDatasetId" = "ID"))
