@@ -73,3 +73,5 @@ rsync-credentials.json
 .publish
 /vendor/
 .Rhistory
+
+API_KEY
