@@ -75,3 +75,5 @@ rsync-credentials.json
 .Rhistory
 
 API_KEY
+.Rproj.user
+.Rprofile
