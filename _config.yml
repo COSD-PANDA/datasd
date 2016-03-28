@@ -2,7 +2,7 @@
 # Can be used in your theme by calling 'site.title' and so on
 title: DataSD
 description: DataSD
-tagline: Open Data For All
+tagline: Empowering San Diegans by making data usable.
 url: localhost:4000
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
@@ -12,10 +12,10 @@ destination: serve
 # Same as the title etc for your site but can instead be
 # called by using 'site.author.name' and so on
 author:
-  name: 
-  email: 
-  bio: 
-  twitter: 
+  name:
+  email:
+  bio:
+  twitter:
 
 # _config.build.yml overwrites these options when you run `gulp build`
 # Enables future posts (posts with dates in the future) and drafts
