@@ -77,3 +77,6 @@ rsync-credentials.json
 API_KEY
 .Rproj.user
 .Rprofile
+
+tools/*.html
+tools/*.csv

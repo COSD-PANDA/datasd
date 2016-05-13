@@ -97,7 +97,7 @@ topVoted <- function() {
         count(vDatasetId) %>%
         arrange(desc(n)) 
     
-    top <- topVotes[1:5, ] %>%
+    top <- topVotes[1:20, ] %>%
         inner_join(inventory, by=c("vDatasetId" = "ID")) %>%
         select(vDatasetId, nVotes = n, Category, Description)
     
