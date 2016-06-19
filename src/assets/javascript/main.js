@@ -38,6 +38,25 @@ $(document).ready(function() {
 		});
 	});
 
+	$('#portal-search-form').submit(function(e) {
+		var searchVal = $("input#query").val();
+		console.log(searchVal);
+		var eventObject = {
+			keen: {
+				timestamp: new Date().toISOString()
+			},
+			searchValue: searchVal
+		}
+
+		Kclient.addEvent("datasdSearches", eventObject, function(err, res){
+			if(err) 
+				console.log(err);
+		});
+		alert('hi');
+
+	});
+
+
 	// Initilize the DataTable object and put settings in
 	window.inventory = $("#invTable").DataTable({
 	    "order": [[ 2, "asc" ]],
