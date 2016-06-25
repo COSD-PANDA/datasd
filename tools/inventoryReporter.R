@@ -5,9 +5,8 @@ library(plotly)
 library(WufooR)
 setwd("./")
 
-wufooApiKey <- Sys.getenv("wufoo_api_key")
 
-options(Wufoo_Name = "sdcdo", Wufoo_API = wufooApiKey)
+options(Wufoo_Name = "sdcdo", Wufoo_API = Sys.getenv("wufoo_api_key"))
 
 voteFormId <- "qd3zs9p0zgyxvm"
 iterator <- 0
@@ -56,18 +55,23 @@ getVotes <- function() {
                         vDate = Date.Created) %>%
                 mutate(vDatasetId = as.numeric(vDatasetId))
     
-    votesFull <- inner_join(votesFull, inventory, by=c("vDatasetId" = "ID"))
+    #votesFull <- inner_join(votesFull, inventory, by=c("vDatasetId" = "ID"))
+    #votesFull <- left_join(votesFull, inventory, by=c("vDatasetId" = "ID"))
     
     votesFull
 }
 
 votesFull <- getVotes()
 
+write.csv(votesFull, "~/Code/datasd/tools/rawVotes.csv", row.names = FALSE)
+
+# Incorrect?
 inventoryStats <- function() {
    uniqueVotes <- length(unique(votesFull$vMail)) 
    totalVotes <- nrow(votesFull)
 }
 
+# Incorrect?
 inventoryCatBreakdown <- function(inventory) {
     invByCat <- group_by(inventory, Category) %>% 
         count(Category) %>% 
