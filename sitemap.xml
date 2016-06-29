@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>/</loc>
-    <lastmod>2016-06-25T02:43:50+00:00</lastmod>
+    <lastmod>2016-06-29T23:53:44+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -24,7 +24,7 @@
   <url>
     <loc>/404/</loc>
     
-      <lastmod>2016-06-25T02:43:50+00:00</lastmod>
+      <lastmod>2016-06-29T23:53:44+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -37,7 +37,7 @@
   <url>
     <loc>/about/</loc>
     
-      <lastmod>2016-06-25T02:43:50+00:00</lastmod>
+      <lastmod>2016-06-29T23:53:44+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -50,7 +50,33 @@
   <url>
     <loc>/atom.xml</loc>
     
-      <lastmod>2016-06-25T02:43:50+00:00</lastmod>
+      <lastmod>2016-06-29T23:53:44+00:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>/iframes/ctabox-bottom/</loc>
+    
+      <lastmod>2016-06-29T23:53:44+00:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>/iframes/ctabox/</loc>
+    
+      <lastmod>2016-06-29T23:53:44+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -63,7 +89,7 @@
   <url>
     <loc>/iframes/fourbox/</loc>
     
-      <lastmod>2016-06-25T02:43:50+00:00</lastmod>
+      <lastmod>2016-06-29T23:53:44+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -76,7 +102,7 @@
   <url>
     <loc>/</loc>
     
-      <lastmod>2016-06-25T02:43:50+00:00</lastmod>
+      <lastmod>2016-06-29T23:53:44+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -89,7 +115,7 @@
   <url>
     <loc>/inventory/</loc>
     
-      <lastmod>2016-06-25T02:43:50+00:00</lastmod>
+      <lastmod>2016-06-29T23:53:44+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -102,7 +128,20 @@
   <url>
     <loc>/sitemap.xml</loc>
     
-      <lastmod>2016-06-25T02:43:50+00:00</lastmod>
+      <lastmod>2016-06-29T23:53:44+00:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>/iframes/who-fourbox/</loc>
+    
+      <lastmod>2016-06-29T23:53:44+00:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
