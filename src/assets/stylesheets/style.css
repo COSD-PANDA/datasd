@@ -6957,9 +6957,6 @@ a .hidden-link-text {
   font-size: 20px;
   margin-bottom: 0px; }
 
-.outer-wrapper {
-  min-height: 450px; }
-
 .inner-box {
   text-align: left; }
 
@@ -6970,18 +6967,30 @@ a .hidden-link-text {
 .cta-sub {
   font-size: 15px; }
 
-#row-bottom-cta .inner-box {
-  height: 100%; }
-
 .top-row-box {
-  height: 200px; }
+  height: 200px;
+  border-right: 1px solid #cccccc; }
 
 #datasd-logo-box {
   background: #0098db;
   margin-bottom: 10px;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 19px;
   padding-bottom: 10px; }
+
+#mc_embed_signup h3 {
+  margin-top: 20px; }
+
+#mc_embed_signup .inner-box {
+  background: #0098db;
+  height: 143px; }
+
+#cta-bottom-row {
+  height: 275px; }
+
+h4.cta a {
+  font-weight: bold;
+  color: #00bbbc; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
