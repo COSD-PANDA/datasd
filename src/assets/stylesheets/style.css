@@ -6973,10 +6973,18 @@ a .hidden-link-text {
 
 #datasd-logo-box {
   background: #0098db;
-  margin-bottom: 10px;
-  text-align: center;
-  padding-top: 19px;
-  padding-bottom: 10px; }
+  /*margin-bottom:10px;
+    text-align: center;
+    padding-top:0px;
+    padding-bottom:10px;*/ }
+
+#datasd-logo-container {
+  margin-top: 20px;
+  margin-left: 15px; }
+
+#contact-bubble {
+  margin-left: 30px;
+  margin-top: 10px; }
 
 #mc_embed_signup h3 {
   margin-top: 20px; }
@@ -6987,10 +6995,18 @@ a .hidden-link-text {
 
 #cta-bottom-row {
   height: 275px; }
+  #cta-bottom-row .inner-box {
+    border-right: 1px solid white; }
 
 h4.cta a {
   font-weight: bold;
   color: #00bbbc; }
+
+h4.bottom-box-head {
+  color: white; }
+
+#contact-bubble .icon-circle-thin {
+  color: white !important; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
