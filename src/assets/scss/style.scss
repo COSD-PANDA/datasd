@@ -365,6 +365,15 @@ The main SCSS file for everything, yep
 		padding-left:10px;
 		padding-right:10px;
 	}
+
+	#cta-box-bottom-left-container, #datasd-logo-box, #contact-box {
+		display: none;
+	}
+	#mc_embed_signup_box h4.bottom-box-head {
+		padding-top:10px;
+	}
+
+
 }
 
 /* Extra Small Devices, Phones */ 
@@ -416,6 +425,17 @@ The main SCSS file for everything, yep
 		background-position-x: center;
 		background-position-y: 0px;
 	}
+
+	#datasd-logo-container {
+		margin-top: -2px;
+	}
+	#cta-box-bottom-left-container, #datasd-logo-box, #contact-box {
+		display: block;
+	}
+	#mc_embed_signup_box h4.bottom-box-head {
+		padding-top:0px;
+	}
+
 }
 
 /* Large Devices, Wide Screens */
