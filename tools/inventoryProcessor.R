@@ -17,3 +17,4 @@ invByCat <- group_by(inventory, Category) %>%
     rename(NumDatasets = n)
 inv_by_cat <- toJSON(as.list(invByCat))
 write(inv_by_cat, "./assets/data/inv_by_cat.json")
+
