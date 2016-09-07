@@ -40,14 +40,14 @@ $(document).ready(function() {
 
 	// Initilize the DataTable object and put settings in
 	window.inventory = $("#invTable").DataTable({
-	    "order": [[ 3, "asc" ]],
+	    "order": [[ 2, "asc" ]],
 	    "stripeClasses": [ 'dark', 'light' ],
 	    "columns": [
 	      null,
 	      null,
-	      null,
-	      null,
 	      { orderable: false },
+	      null,
+	      null,
 	      null,
 	      null
 	    ]
