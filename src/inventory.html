@@ -66,13 +66,13 @@ title: Inventory
     id="invTable">
     <thead>
         <tr>
-            <th>Date Published</th>
-            <th>Date Added</th>
             <th>Category</th>
             <th>Description</th>
             <th>Vote</th>
-            <th>Target publication (fiscal year)</th>
-            <th>Link to dataset</th>
+            <th>Date Added to inventory</th>
+            <th>Target publication FY</th>
+            <th>Date Published</th>
+            <th>Published dataset</th>
         </tr>
     </thead>
     <tbody>
@@ -81,13 +81,17 @@ title: Inventory
             {% if invRow.Category %}
                 {% capture linkID %}ds_id_{{ invRow.ID }}{% endcapture %}
                 <tr id="{{ linkID }}">
-                    <td class="datePublished"> {{ invRow.DatePublished }} </td>
-                    <td class="dateAdded"> {{ invRow.DateAdded }} </td>
                     <td class="cat"> {{ invRow.Category }} </td>
                     <td class="desc"> {{ invRow.Description }} </td>
-                    <td class="dateAdded"> <a target="_blank" class="vote-link" id="{{ linkID }}" href="https://sdcdo.wufoo.com/forms/vote-for-a-dataset/def/field6={{ linkID }}">Vote</a> </td>
+                    <td class="vote"> <a target="_blank" class="vote-link" id="{{ linkID }}" href="https://sdcdo.wufoo.com/forms/vote-for-a-dataset/def/field6={{ linkID }}">Vote</a> </td>
+                    <td class="dateAdded"> {{ invRow.DateAdded }} </td>
                     <td class="target"> {{ invRow.TargetPublication }} </td>
-                    <td class="link"> {{ invRow.Link }} </td>
+                    <td class="datePublished"> {{ invRow.DatePublished }} </td>
+                    {% if invRow.Link != '' %}
+                        <td class="link"> <a target="_blank" class="inv-link" href="http://data.sandiego.gov/dataset/{{ invRow.Link }}">View dataset</a>  </td>
+                    {% elsif invRow.Link == '' %}
+                        <td class="link"></td>
+                    {% endif %}
                 </tr>
             {% endif %}
         {% endfor %}
