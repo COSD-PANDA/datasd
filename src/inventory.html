@@ -87,9 +87,9 @@ title: Inventory
                     <td class="dateAdded"> {{ invRow.DateAdded }} </td>
                     <td class="target"> {{ invRow.TargetPublication }} </td>
                     <td class="datePublished"> {{ invRow.DatePublished }} </td>
-                    {% if invRow.Link != '' %}
+                    {% if invRow.Link != "" and invRow.Link != nil %}
                         <td class="link"> <a target="_blank" class="inv-link" href="http://data.sandiego.gov/dataset/{{ invRow.Link }}">View dataset</a>  </td>
-                    {% elsif invRow.Link == '' %}
+                    {% else %}
                         <td class="link"></td>
                     {% endif %}
                 </tr>
