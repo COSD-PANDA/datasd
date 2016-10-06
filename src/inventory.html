@@ -24,7 +24,7 @@ title: Inventory
         <div class="panel panel-default text-center big-num">
             <div class="panel-body">
                 <div class="chart-stage row" id="datasetsInv">
-                    
+
                 </div>
                 <div class="chart-bottom row">
                     Datasets Inventoried
@@ -44,7 +44,7 @@ title: Inventory
         <div class="panel panel-default text-center big-num">
             <div class="panel-body">
                 <div class="chart-stage row" id="deptRep">
-                    20
+                   21
                 </div>
                 <div class="chart-bottom row">
                     Departments Represented
@@ -58,18 +58,21 @@ title: Inventory
 
 
 <div id="inventory-table">
-    <table 
-    cellpadding="0" 
-    cellspacing="0" 
-    border="0" 
-    class="table table-striped table-bordered" 
+    <table
+    cellpadding="0"
+    cellspacing="0"
+    border="0"
+    class="table table-striped table-bordered"
     id="invTable">
     <thead>
         <tr>
-            <th>Date Added</th>
             <th>Category</th>
             <th>Description</th>
             <th>Vote</th>
+            <th>Date Added to inventory</th>
+            <th>Target publication FY</th>
+            <th>Date Published</th>
+            <th>Published dataset</th>
         </tr>
     </thead>
     <tbody>
@@ -78,13 +81,20 @@ title: Inventory
             {% if invRow.Category %}
                 {% capture linkID %}ds_id_{{ invRow.ID }}{% endcapture %}
                 <tr id="{{ linkID }}">
-                    <td class="dateAdded"> {{ invRow.DateAdded }} </td>
                     <td class="cat"> {{ invRow.Category }} </td>
                     <td class="desc"> {{ invRow.Description }} </td>
-                    <td class="dateAdded"> <a target="_blank" class="vote-link" id="{{ linkID }}" href="https://sdcdo.wufoo.com/forms/vote-for-a-dataset/def/field6={{ linkID }}">Vote</a> </td>
+                    <td class="vote"> <a target="_blank" class="vote-link" id="{{ linkID }}" href="https://sdcdo.wufoo.com/forms/vote-for-a-dataset/def/field6={{ linkID }}">Vote</a> </td>
+                    <td class="dateAdded"> {{ invRow.DateAdded }} </td>
+                    <td class="target"> {{ invRow.TargetPublication }} </td>
+                    <td class="datePublished"> {{ invRow.DatePublished }} </td>
+                    {% if invRow.Link != "" and invRow.Link != nil %}
+                        <td class="link"> <a target="_blank" class="inv-link" href="http://data.sandiego.gov/dataset/{{ invRow.Link }}">View dataset</a>  </td>
+                    {% else %}
+                        <td class="link"></td>
+                    {% endif %}
                 </tr>
             {% endif %}
-        {% endfor %}        
+        {% endfor %}
 
     <tbody>
 
@@ -105,4 +115,4 @@ title: Inventory
     <div class="col-md-1 suggest-ds">
         <a title="Suggest dataset" href="https://sdcdo.wufoo.com/forms/suggest-a-dataset/" target="_blank"><i class="fa fa-5x fa-plus-square-o"></i></a>
     </div>
-</div>  
+</div>

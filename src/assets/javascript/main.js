@@ -63,8 +63,11 @@ $(document).ready(function() {
 	    "columns": [
 	      null,
 	      null,
+	      { orderable: false },
 	      null,
-	      { orderable: false }
+	      null,
+	      null,
+	      null
 	    ]
 	 });
 	$('#datasetsInv').text(window.inventory.data().length);

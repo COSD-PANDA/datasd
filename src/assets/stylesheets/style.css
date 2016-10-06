@@ -6931,13 +6931,95 @@ a .hidden-link-text {
   width: 100%;
   padding-bottom: 90px; }
 
+.fourbox-box {
+  background: transparent;
+  text-align: left;
+  padding: 30px;
+  overflow: hidden;
+  font-family: "Open Sans",Helvetica, Arial, sans-serif;
+  border: 1px solid #cccccc;
+  height: 400px; }
+
+.fourbox-last {
+  border-right: 0px; }
+
+.fourbox-box h3 {
+  margin-top: 0px; }
+
+.inner-box h3 {
+  margin-top: 0px;
+  font-family: "Open Sans",Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3b3b3b; }
+
+.inner-box h4 {
+  font-family: "Open Sans",Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  margin-bottom: 0px; }
+
+.inner-box {
+  text-align: left; }
+
+.outer-box {
+  background: transparent;
+  font-family: "Open Sans",Helvetica, Arial, sans-serif; }
+
+.cta-sub {
+  font-size: 15px; }
+
+.top-row-box {
+  height: 200px;
+  border-right: 1px solid #cccccc; }
+
+#datasd-logo-box {
+  background: #0098db;
+  /*margin-bottom:10px;
+    text-align: center;
+    padding-top:0px;
+    padding-bottom:10px;*/ }
+
+#datasd-logo-container {
+  margin-top: 20px;
+  margin-left: 15px; }
+
+#contact-bubble {
+  margin-left: 30px;
+  margin-top: 10px; }
+
+#mc_embed_signup h3 {
+  margin-top: 20px; }
+
+#mc_embed_signup .inner-box {
+  background: #0098db;
+  height: 143px; }
+
+#cta-bottom-row {
+  height: 275px; }
+  #cta-bottom-row .inner-box {
+    border-right: 1px solid white; }
+
+h4.cta a {
+  font-weight: bold;
+  color: #00bbbc; }
+
+h4.bottom-box-head {
+  color: white; }
+
+#contact-bubble .icon-circle-thin {
+  color: white !important; }
+
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
   .jumbo-intro {
     padding-bottom: 0px;
     padding-left: 10px;
-    padding-right: 10px; } }
+    padding-right: 10px; }
+  #cta-box-bottom-left-container, #datasd-logo-box, #contact-box {
+    display: none; }
+  #mc_embed_signup_box h4.bottom-box-head {
+    padding-top: 10px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
@@ -6971,7 +7053,13 @@ a .hidden-link-text {
     background-position-y: 0px; }
   #header-image {
     background-position-x: center;
-    background-position-y: 0px; } }
+    background-position-y: 0px; }
+  #datasd-logo-container {
+    margin-top: -2px; }
+  #cta-box-bottom-left-container, #datasd-logo-box, #contact-box {
+    display: block; }
+  #mc_embed_signup_box h4.bottom-box-head {
+    padding-top: 0px; } }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
