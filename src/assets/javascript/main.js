@@ -52,7 +52,6 @@ $(document).ready(function() {
 			if(err) 
 				console.log(err);
 		});
-		alert('hi');
 
 	});
 
