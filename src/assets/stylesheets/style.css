@@ -6840,7 +6840,8 @@ a .hidden-link-text {
   margin-top: 5%;
   background: rgba(0, 0, 0, 0.8);
   color: white;
-  padding: 30px; }
+  padding: 30px;
+  padding-bottom: 30px !important; }
   .jumbo-intro .cta-box {
     background: transparent;
     padding: 30px;
