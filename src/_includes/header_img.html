@@ -1,7 +1,7 @@
 <!-- Header Carousel -->
 <header id="header-image">
 	<div class="container jumbo-intro">
-		<div class="col-md-4 cta-box">
+		<!--<div class="col-md-4 cta-box">
 			<h2> Open Data Inventory Released </h2>
 	        <p class="sub">What do you want to see on the portal?</p>
 	        <p>
@@ -10,10 +10,22 @@
         	</a>
         	</p>
 	        
-        </div>
-        <div class="col-md-8 welcome-intro">
-			<h3>Welcome to DataSD, the new home of the City of San Diego's Open Data Program</h3>
-			<p>We have big plans for DataSD - the new home of the Open Data Program in San Diego.  We want it to be a place for you to learn about government data, and learn how to get involved in the community.  As we continue building the site, you will see a lot more on here, but meanwhile - and most importantly, make sure to <a href="/inventory/" title="Data Inventory">review and vote on the new Open Data Inventory!</a> </p>
+        </div>-->
+        <div class="col-md-12 welcome-intro text-center">
+			<h1>Find the Data You Need!</h1>
+			<p>Search datasets from the City of San Diego. Or <a href="http://data.sandiego.gov" title="data.sandiego.gov" target = "_blank">browse on the data catalog<a></p>
+			<div class="col-md-12">
+			<form action="http://data.sandiego.gov/search/type/dataset" target="_blank" method="get" id="portal-search-form">
+			    <div class="input-group">
+			      <input id="query" type="text" name="query" class="form-control" placeholder="Search for things like water quality, special events or business listings">
+			      <input type="hidden" name="sort_by" value="title"/>
+			      <input type="hidden" name="sort_order" value="ASC"/>
+			      <span class="input-group-btn">
+			        <button id="submit" class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+			      </span>
+			    </div><!-- /input-group -->
+			  </div>
+			</form>
 		</div>
 	</div>	
 </header>
