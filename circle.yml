@@ -1,5 +1,5 @@
-general: 
-  branches: 
+general:
+  branches:
     only:
       - master
       - production
@@ -12,7 +12,5 @@ deployment:
   production:
     branch: production
     commands:
-      - git config --global user.email "max@maksimize.com"
-      - git config --global user.name "Maksim Pecherskiy"
       - gulp publish
-      - gulp deploy
+      - netlify deploy --path ./site --site-id datasd
