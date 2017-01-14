@@ -30,6 +30,7 @@
     "gulp-useref": "^1.0.2",
     "jshint-stylish": "^1.0.0",
     "merge-stream": "^0.1.6",
+    "netlify": "^1.2.0",
     "surge": "^0.17.7"
   },
   "engines": {
