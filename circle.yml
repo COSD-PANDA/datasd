@@ -4,7 +4,7 @@ machine:
 dependencies:
   override:
     - bundle install
-    - yarn install
+    - yarn
 general:
   branches:
     only:
