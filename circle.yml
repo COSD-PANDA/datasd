@@ -1,3 +1,10 @@
+machine:
+  environment:
+    PATH: ${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin
+dependencies:
+  override:
+    - bundle install
+    - npm install
 general:
   branches:
     only:
@@ -8,9 +15,10 @@ deployment:
     branch: master
     commands:
       - gulp publish
-      - surge --project ./site --domain datasd-stage.surge.sh
+#      - surge --project ./site --domain datasd-stage.surge.sh
+      - s3_website push
   production:
     branch: production
     commands:
       - gulp publish
-      - netlify deploy --path ./site --site-id datasd --access-token $NETLIFY_TOKEN
+      - s3_website push
