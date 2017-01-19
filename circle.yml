@@ -1,3 +1,6 @@
+dependencies:
+  override:
+    - bundle install
 general:
   branches:
     only:
@@ -13,4 +16,4 @@ deployment:
     branch: production
     commands:
       - gulp publish
-      - netlify deploy --path ./site --site-id datasd --access-token $NETLIFY_TOKEN
+      - s3_website push
