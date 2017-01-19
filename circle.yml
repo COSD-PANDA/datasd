@@ -11,7 +11,8 @@ deployment:
     branch: master
     commands:
       - gulp publish
-      - surge --project ./site --domain datasd-stage.surge.sh
+#      - surge --project ./site --domain datasd-stage.surge.sh
+      - s3_website push
   production:
     branch: production
     commands:
