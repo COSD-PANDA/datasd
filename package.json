@@ -35,5 +35,9 @@
   "engines": {
     "node": ">0.10.0"
   },
-  "scripts": {}
+  "scripts": {},
+  "main": "index.js",
+  "repository": "git@github.com:cityofsandiego/datasd.git",
+  "author": "Maksim Pecherskiy <max@maksimize.com>",
+  "license": "MIT"
 }
