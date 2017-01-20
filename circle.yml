@@ -1,8 +1,6 @@
 machine:
   pre:
     - mkdir ~/.yarn-cache
-  node:
-    version: stable
   environment:
     PATH: ${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin:${HOME}/.yarn/bin
 dependencies:
@@ -12,8 +10,8 @@ dependencies:
      - ~/.yarn-cache
   override:
     - bundle install
-      #- yarn install
-    - npm install
+    - yarn install
+      # - npm install
 general:
   branches:
     only:
