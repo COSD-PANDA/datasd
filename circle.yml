@@ -12,7 +12,8 @@ dependencies:
      - ~/.yarn-cache
   override:
     - bundle install
-    - yarn install
+      #- yarn install
+    - npm install
 general:
   branches:
     only:
