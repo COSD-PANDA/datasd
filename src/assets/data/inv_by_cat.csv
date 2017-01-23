@@ -1,8 +1,9 @@
-"Category","NumDatasets"
-"City infrastructure",24
-"City management and ethics",15
-"Culture and recreation",16
-"Economy and community",10
-"Energy and environment",19
-"Public safety",11
-"Transportation",6
+Category,NumDatasets
+City infrastructure,30
+City management and ethics,14
+Culture and recreation,25
+Economy and community,31
+Energy and environment,15
+Finance,14
+Public safety,14
+Transportation,3
