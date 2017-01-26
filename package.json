@@ -40,5 +40,6 @@
   "author": "Maksim Pecherskiy <max@maksimize.com>",
   "license": "MIT",
   "dependencies": {
+    "gulp-minify-css": "^1.2.4"
   }
 }
