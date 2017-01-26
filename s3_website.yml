@@ -8,18 +8,20 @@ cloudfront_distribution_id: E1SX69SRDPHOTT
 
 site: site
 
-# index_document: index.html
+index_document: index.html
 # error_document: error.html
 
 # max_age:
 #   "assets/*": 6000
 #   "*": 300
 
-# gzip:
-#   - .html
-#   - .css
-#   - .md
+gzip:
+  - .html
+  - .css
 # gzip_zopfli: true
+
+content_type:
+  "*.html": text/html
 
 # See http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region for valid endpoints
 # s3_endpoint: ap-northeast-1

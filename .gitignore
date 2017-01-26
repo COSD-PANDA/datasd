@@ -81,3 +81,5 @@ API_KEY
 tools/*.html
 tools/*.csv
 tools/.RData
+
+.env
