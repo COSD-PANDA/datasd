@@ -5,7 +5,6 @@ var gulp = require("gulp");
 // Loads the plugins without having to list all of them, but you need
 // to call them as $.pluginname
 var $ = require("gulp-load-plugins")();
-var gi = require('gulp-ignore');
 // "del" is used to clean out directories and such
 var del = require("del");
 // BrowserSync isn"t a gulp package, and needs to be loaded manually
@@ -88,30 +87,28 @@ gulp.task("copy", function () {
 });
 
 gulp.task("htmljs", function() {
-  var assets = $.useref.assets({searchPath: "serve"});
+  //var assets = $.useref.assets({searchPath: "serve"});
   return gulp.src("serve/**/*.html")
-    .pipe(assets)
-    .pipe(gi.exclude([ "*.css" ]))
+    .pipe($.useref({searchPath: "serve" }))
     .pipe($.if("*.js", $.uglifyjs({preserveComments: "some"})))
     .pipe(gulp.dest("site"))
 });
 
 // Optimizes all the CSS, HTML and concats the JS etc
 gulp.task("html", ["styles"], function () {
-  var assets = $.useref.assets({searchPath: "serve"});
+  //var assets = $.useref.assets({searchPath: "serve"});
 
   return gulp.src("serve/**/*.html")
-    .pipe(assets)
-    .pipe($.ignore.exclude([ "*.js" ]))
+    .pipe($.useref({searchPath: "serve" }))
+    //.pipe($.ignore.exclude([ "*.js" ]))
     // Concatenate JavaScript files and preserve important comments
-    //.pipe($.if("*.js", $.uglifyjs({preserveComments: "some"})))
+    .pipe($.if("*.js", $.uglifyjs({preserveComments: "some"})))
     // Minify CSS
     .pipe($.if("*.css", $.minifyCss()))
     // Start cache busting the files
     .pipe($.revAll({ ignore: [".eot", ".svg", ".ttf", ".woff", ".csv", ".json", ".jpg", ".png"] }))
-    .pipe(assets.restore())
     // Conctenate your files based on what you specified in _layout/header.html
-    .pipe($.useref())
+    .pipe($.useref({searchPath: "serve" }))
     // Replace the asset names with their cache busted names
     .pipe($.revReplace())
     // Minify HTML
