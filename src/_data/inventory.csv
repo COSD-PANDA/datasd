@@ -1,147 +1,147 @@
 ID,DateAdded,Category,Description,Master_ID,Notes,DatePublished,TargetPublication,Link
-1,2/29/2016,City infrastructure,City-owned sites as a geographic dataset,1833,,,2017,
-2,2/29/2016,Finance,City's operating and capital budgets,714,,,2017,
-3,2/29/2016,Public safety,Cliff rescues date and location,758,,,2020,
-4,2/29/2016,Economy and community,Community Block Development Grant areas as a geographic dataset,403,,,2017,
-5,2/29/2016,Economy and community,Community Development Block Grant projects,,y,,2018,
-6,2/29/2016,Finance,Daily water utility revenue by rate category,1123,,,2018,
-7,2/29/2016,Economy and community,Development project status,315,,,2018,
-8,2/29/2016,City management and ethics,Entry and exit points tracked for sandiego.gov visitors,370,,,2018,
-9,2/29/2016,City infrastructure,Fire hydrant knockover totals by year,1797,,,2020,
-10,2/29/2016,Public safety,Fire/EMS response time statistics,745,,,2017,
-11,2/29/2016,City infrastructure,Five-Year Capital Infrastructure Planning Outlook report: data on capital infrastructure needs and funding for the next five fiscal years,730,,,2020,
-12,2/29/2016,Economy and community,Foreign trade zones as a geographic dataset,387,,,2017,
-13,2/29/2016,Energy and environment,Geological hazards as a geographic dataset,431,,,2017,
-14,2/29/2016,Culture and recreation,"Historic properties and the site details that have been submitted to the California Historical Resources Inventory Database
-",1076,,,2018,
-15,2/29/2016,Culture and recreation,Historical districts as a geographic dataset,410,,,2017,
-16,2/29/2016,Finance,Historical ratings of city bond issues,280,,,2020,
-17,2/29/2016,Culture and recreation,Inventory of all City parks,866,,,2020,
-18,2/29/2016,City infrastructure,Joint-use areas as a geographic dataset,879,,,2017,
-19,2/29/2016,Economy and community,Land development permit applications received,324,,,2017,
-20,2/29/2016,Economy and community,Land development permit inspection results,317,,,2018,
-21,2/29/2016,Economy and community,Lease agreements where the City leases space from an outside entity,1879,,,2018,
-22,2/29/2016,Energy and environment,Spreadsheet tracking compliance of a goal of achieving a 20% reduction in urban per capita water,1826,,,2019,
-23,2/29/2016,Finance,Parking meter transactions,201,,07/01/2016,2016,parking-meter-transactions
-24,2/29/2016,City infrastructure,State of the CIP Report: a status report on the Capital Improvements Program. This report includes data on the City's capital infrastructure projects by fiscal year,1852,,,2020,
-25,2/29/2016,Economy and community,General Plan Land Use,430,,07/01/2016,2016,general-plan-land-use-map
-26,2/29/2016,Economy and community,Parking zone boundaries,412,,07/01/2016,2016,parking-zone-boundaries
-27,2/29/2016,City infrastructure,Street light inventory,1977,,,2019,
-28,2/29/2016,Economy and community,Permits completed,326,,07/01/2016,2016,permits-issued
-29,2/29/2016,City management and ethics,Browsers and platforms used by visitors to sandiego.gov,363,,,2017,
-30,2/29/2016,Economy and community,Permits issued,325,,07/01/2016,2016,permits-issued
-31,2/29/2016,City infrastructure,Building footprints of city-owned buildings as a geographic dataset,428,,,2017,
-32,2/29/2016,Economy and community,Building footprints of non-residential buildings in San Diego as a geographic dataset,429,,,2017,
-33,2/29/2016,Culture and recreation,Revenue earned annually by each arts and culture organization that receives city funding,225,,,2019,
-34,2/29/2016,Economy and community,Land development permit status,316,,07/01/2016,2016,permits-issued
-35,2/29/2016,Energy and environment,Children's Pool seal counts,1062,,,2019,
-36,2/29/2016,Finance,Sales tax projection tables,738,,,2019,
-37,2/29/2016,City infrastructure,Leases for City-owned property,1878,,07/01/2016,2016,leases-city-owned-property
-38,2/29/2016,City management and ethics,City Council Agendas,25,,,2019,
-39,2/29/2016,City management and ethics,Sandiego.gov top downloaded files,365,,,2019,
-40,2/29/2016,Energy and environment,"Tonnages of disposed materials brought to Miramar landfill, plus revenue from transaction fees",704,,,2020,
-41,2/29/2016,Economy and community,Community Planning District boundaries,405,,07/01/2016,2016,community-planning-district-boundaries
-42,2/29/2016,City management and ethics,City Council Vote Results,25,,,2020,
-43,2/29/2016,City management and ethics,Sandiego.gov top search terms/phrases,361,,,2019,
-44,2/29/2016,Culture and recreation,Total hours of all libraries by year,814,,,2020,
-45,2/29/2016,Transportation,Bike route lines,385,,07/01/2016,2016,bike-route-map
-46,2/29/2016,City management and ethics,Sandiego.gov top visited pages,364,,,2019,
-47,2/29/2016,Finance,Tourism Marketing District totals by period,162,,,2020,
-48,2/29/2016,City infrastructure,Schedule of when overhead utility lines will be moved underground,1959,,,2019,
-49,2/29/2016,Finance,Transient Occupancy Tax certificate counts by type and status,159,,,2020,
-50,2/29/2016,Culture and recreation,Library hours by location,813,,,2020,
-51,2/29/2016,Finance,Transient Occupancy Tax totals by period,165,,,2020,
-52,2/29/2016,City infrastructure,Lifeguard stations,435,,,2020,
-53,2/29/2016,City infrastructure,Mapping of open and closed landfills,677,,,2018,
-54,2/29/2016,Energy and environment,"Trash, recycling and yard waste tonnage collected by City forces",691,,,2020,
-55,2/29/2016,Culture and recreation,Special events,1933,,07/01/2016,2016,special-events
-56,2/29/2016,Finance,Listing of bond refundings,284,,,2020,
-57,2/29/2016,Energy and environment,"Metered potable water billed to all accounts, rolling 12-months, in acre-feet",1129,,,2020,
-58,2/29/2016,Energy and environment,"Wastewater testing, including total suspended solids and biochemical oxygen demand",1699,,,2019,
-59,2/29/2016,City management and ethics,City Council district boundaries,407,,07/01/2016,2016,city-council-district-boundaries
-60,2/29/2016,Transportation,Street sweeping schedules,,,07/01/2016,2016,street-sweeping-schedule
-61,2/29/2016,Finance,Listing of continuing disclosure filings made for each bond issuance,281,,,2020,
-62,2/29/2016,Energy and environment,"Metered recycled irrigation billed to all accounts, rolling 12 months, in acre-feet",1134,,,2020,
-63,2/29/2016,City infrastructure,Water main break totals by year,1795,,,2019,
-64,2/29/2016,Economy and community,Open code enforcement cases,334,,07/01/2016,2016,code-enforcement-violations
-65,2/29/2016,City infrastructure,Traffic signal inventory,1976,,,2016,
-66,2/29/2016,Finance,Listing of properties whose lease revenues secure lease-revenue bonds,285,,,2020,
-67,2/29/2016,Energy and environment,"Metered water billed to all accounts, rolling 12 months, in acre-feet",1126,,,2018,
-68,2/29/2016,City infrastructure,Water main breaks as a geographic dataset,1210,,,2019,
-69,2/29/2016,Economy and community,Financial support for candidates and ballot measures up for election,36,,07/01/2016,2016,financial-support-candidates-and-ballot-measures-election
-70,2/29/2016,Transportation,Traffic volumes,1958,,07/01/2016,2016,traffic-volumes
-71,2/29/2016,Energy and environment,Metered water billed to City accounts by City Department,1132,,,2018,
-72,2/29/2016,Public safety,Fire incidents,742,,07/01/2016,2016,fire-incidents
-73,2/29/2016,Economy and community,Zoning,586,,07/01/2016,2016,zoning-map
-74,2/29/2016,Public safety,City of San Diego Fire-Rescue administrative battalion districts as a geographic dataset,408,,,2017,
-75,2/29/2016,Energy and environment,Metered water billed to City accounts by premise type,1130,,,2018,
-76,2/29/2016,Economy and community,Active businesses by Business Improvement District,180,,,2017,
-77,2/29/2016,Public safety,City of San Diego Fire-Rescue administrative engine districts as a geographic dataset,409,,,2017,
-78,2/29/2016,Energy and environment,Metered water billed to City accounts for Park and Recreation,1131,,,2018,
-79,2/29/2016,Culture and recreation,Pools/aquatic center locations as a geographic dataset,883,,,2019,
-80,2/29/2016,City infrastructure,Recreation center locations,884,,07/01/2016,2016,recreation-center-locations
-81,2/29/2016,City management and ethics,Active campaign committees,29,,,2017,
-82,2/29/2016,Energy and environment,"Monthly reservoir reports for Hodges, Sutherland, Olivenhain reservoirs",1660,,,2018,
-83,2/29/2016,City management and ethics,Public Utilities Capital Improvements Program as a geographic dataset,1406,,,2019,
-84,2/29/2016,Economy and community,Code enforcement case status,337,,07/01/2016,2016,code-enforcement-violations
-85,2/29/2016,Culture and recreation,Amount of money each city-funded arts and culture organization annually spends in the local economy,220,,,2017,
-86,2/29/2016,Economy and community,Number of companies assisted annually through the Economic Development Department,,b,,2018,
-87,2/29/2016,Economy and community,Recently closed code enforcement cases,335,,,2019,
-88,2/29/2016,City infrastructure,Monitoring of indicator bacteria in drinking water,1487,,07/01/2016,2016,monitoring-indicator-bacteria-drinking-water
-89,2/29/2016,Culture and recreation,Amount of revenue contributed by entities other than the city annually to each arts and culture organization that also receives City funding,226,,,2017,
-90,2/29/2016,Culture and recreation,Number of free admissions offered annually by each arts and culture organization that receives city funding,228,,,2018,
-91,2/29/2016,Energy and environment,Recycled water billed to City accounts,1128,,,2019,
-92,2/29/2016,City management and ethics,"Appointments, reappointments, resignations in City boards and commissions",31,,,2017,
-93,2/29/2016,Culture and recreation,"Number of full-time employees, part-time employees and volunteers engaged by each arts and culture organization that receives city funding",219,,,2018,
-94,2/29/2016,Finance,Recycled water utility revenue by rate category,1124,,,2019,
-95,2/29/2016,Culture and recreation,Athletic areas as a geographic dataset,878,,,2017,
-96,2/29/2016,Culture and recreation,Number of paid admissions collected annually by each arts and culture organization that receives city funding,227,,,2018,
-97,2/29/2016,Economy and community,Bank reported vacant/foreclosed properties,314,,,2017,
-98,2/29/2016,Culture and recreation,Number of people who attend the services provided by city-funded arts and culture organizations each year,224,,,2018,
-99,2/29/2016,Culture and recreation,Beach amentities by beach,755,,,2020,
-100,2/29/2016,City management and ethics,Number of unique and return visitors to sandiego.gov,362,,,2018,
-101,2/29/2016,Public safety,Beach misdemeanor and infraction tracking,757,,,2020,
-102,2/29/2016,Economy and community,Numbers of new storefront improvement program participants,592,,,2018,
-103,2/29/2016,Economy and community,Business Improvement District boundaries,388,,07/01/2016,2016,business-improvement-district-boundaries
-104,2/29/2016,Economy and community,Numbers of projects completed as part of the storefront improvement program,593,,,2018,
-105,2/29/2016,Economy and community,Business listings,179,,07/01/2016,2016,active-businesses-san-diego
-106,2/29/2016,Culture and recreation,Numbers of tourists who access services from arts and culture organizations that receive City funding,223,,,2018,
-107,2/29/2016,Culture and recreation,Official Library circulation statistics,828,,,2020,
-108,2/29/2016,Culture and recreation,Parcels designated as open space in GIS layer,437,,,2018,
-109,2/29/2016,Culture and recreation,Park land by dedication status as a geographic dataset,880,,,2018,
-110,2/29/2016,Economy and community,"Parking impact zones for campus, coast & beach as a geographic dataset",438,,,2019,
-111,2/29/2016,City infrastructure,Parks restroom inventory,906,,,2020,
-112,2/29/2016,Finance,Payments to vendors who work with the City,143,,,2019,
-113,2/29/2016,Culture and recreation,Playground locations as a geographic dataset,882,,,2019,
-114,2/29/2016,Public safety,Police adult arrest log,1097,,,2019,
-115,2/29/2016,Public safety,"Police tracking of collisions, including date/time and location",1096,,,2019,
-116,6/8/2016,City infrastructure,"Street projects (slurry, overlay, concrete)",2017,,,2019,
-117,6/8/2016,City infrastructure,Street Overall Condition Index,2018,,,2017,
-118,6/8/2016,City infrastructure,Sidewalk Overall Condition Index,,b,,2020,
-119,6/8/2016,City infrastructure,Parking meter locations,,b,07/01/2016,2016,parking-meter-locations
-120,6/8/2016,Public safety,Fire station locations,,b,07/01/2016,2016,fire-stations
-121,6/8/2016,City infrastructure,Bike-friendly miles added or improved,,b,,2017,
-122,6/8/2016,City infrastructure,Parcels to City-owned properties,,b,07/01/2016,2016,parcels-city-owned-properties
-123,6/8/2016,City management and ethics,Results from the resident satisfaction survey,,b,,2017,
-124,6/8/2016,City infrastructure,Get It Done Requests (311),,b,07/01/2016,2016,311-requests
-125,6/8/2016,City management and ethics,Street sweeping monthly performance reports,1067,,,2019,
-126,6/8/2016,Economy and community,Code enforcement complaint type codes,,b,07/01/2016,2016,complaint-type-codes
-127,6/8/2016,City infrastructure,Available services through Get It Done (311),,b,07/01/2016,2016,311-services
-128,6/8/2016,Culture and recreation,Locations of public art,210,,,2017,
-129,6/8/2016,Culture and recreation,Library and recreation center programs,,b,,2020,
-130,6/8/2016,Economy and community,Maintenance Assessment Districts as a geographic dataset,411,,,2018,
-131,6/8/2016,Economy and community,Revolving Loan Fund coverage boundary,394,,07/01/2016,2016,revolving-loan-fund-coverage-boundary
-132,6/8/2016,Economy and community,Businesses opened this year according to business tax records,,b,07/01/2016,2016,businesses-opened-year
-133,6/8/2016,City infrastructure,Monitoring of select chemical parameters in drinking water,,b,07/01/2016,2016,monitoring-select-chemical-parameters-drinking-water
-134,6/8/2016,City infrastructure,Drinking water sample sites,537,,07/01/2016,2016,drinking-water-sample-sites
-135,6/8/2016,Energy and environment,City energy use,698,,,2018,
-136,6/8/2016,Public safety,Police vehicle stop data,1098,,,2019,
-137,6/8/2016,Public safety,Police calls for service,1102,,07/01/2016,2016,police-calls-service
-138,6/8/2016,City infrastructure,City-owned property details,,y,07/01/2016,2016,city-owned-property-details
-139,6/8/2016,Culture and recreation,Library locations in San Diego County,,y,07/01/2016,2016,library-locations-san-diego-county
-140,6/8/2016,Culture and recreation,Park locations,,y,07/01/2016,2016,park-locations
-141,6/8/2016,City infrastructure,City Right-of-Way boundaries,,y,07/01/2016,2016,city-right-way-boundaries
-142,6/8/2016,Public safety,Police beats,,y,07/01/2016,2016,police-beats
-143,6/8/2016,Public safety,Police call disposition codes,,y,07/01/2016,2016,police-call-disposition-codes
-144,6/8/2016,Public safety,Police call types,,y,07/01/2016,2016,police-call-types
-145,6/8/2016,Finance,Billing for leases on City-owned properties,,,07/01/2016,2016,billing-leases-city-owned-properties
+1,2/29/16,City infrastructure,Leases for City-owned property,1878,,6/22/16,2016,leases-city-owned-property
+2,2/29/16,City infrastructure,Traffic signal inventory,1976,,,2016,
+3,2/29/16,City infrastructure,Recreation center locations,884,,6/22/16,2016,recreation-center-locations
+4,2/29/16,City infrastructure,Monitoring of indicator bacteria in drinking water,1487,,6/22/16,2016,monitoring-indicator-bacteria-drinking-water
+5,2/29/16,City infrastructure,City-owned sites as a geographic dataset,1833,,,2017,
+6,2/29/16,City infrastructure,Joint-use areas as a geographic dataset,879,,,2017,
+7,2/29/16,City infrastructure,Building footprints of city-owned buildings as a geographic dataset,428,,,2017,
+8,2/29/16,City infrastructure,Mapping of open and closed landfills,677,,,2018,
+9,2/29/16,City infrastructure,Street light inventory,1977,,,2019,
+10,2/29/16,City infrastructure,Schedule of when overhead utility lines will be moved underground,1959,,,2019,
+11,2/29/16,City infrastructure,Water main break totals by year,1795,,,2019,
+12,2/29/16,City infrastructure,Water main breaks as a geographic dataset,1210,,,2019,
+13,2/29/16,City infrastructure,Fire hydrant knockover totals by year,1797,,,2020,
+14,2/29/16,City infrastructure,Five-Year Capital Infrastructure Planning Outlook report: data on capital infrastructure needs and funding for the next five fiscal years,730,,,2020,
+15,2/29/16,City infrastructure,State of the CIP Report: a status report on the Capital Improvements Program. This report includes data on the City's capital infrastructure projects by fiscal year,1852,,,2020,
+16,2/29/16,City infrastructure,Lifeguard stations,435,,,2020,
+17,2/29/16,City infrastructure,Parks restroom inventory,906,,,2020,
+18,2/29/16,City management and ethics,City Council district boundaries,407,,6/22/16,2016,city-council-district-boundaries
+19,2/29/16,City management and ethics,Browsers and platforms used by visitors to sandiego.gov,363,,,2017,
+20,2/29/16,City management and ethics,Active campaign committees,29,,,2017,
+21,2/29/16,City management and ethics,"Appointments, reappointments, resignations in City boards and commissions",31,,,2017,
+22,2/29/16,City management and ethics,Entry and exit points tracked for sandiego.gov visitors,370,,,2018,
+23,2/29/16,City management and ethics,Number of unique and return visitors to sandiego.gov,362,,,2018,
+24,2/29/16,City management and ethics,City Council Agendas,25,,,2019,
+25,2/29/16,City management and ethics,Sandiego.gov top downloaded files,365,,,2019,
+26,2/29/16,City management and ethics,Sandiego.gov top search terms/phrases,361,,,2019,
+27,2/29/16,City management and ethics,Sandiego.gov top visited pages,364,,,2019,
+28,2/29/16,City management and ethics,Public Utilities Capital Improvements Program as a geographic dataset,1406,,,2019,
+29,2/29/16,City management and ethics,City Council Vote Results,25,,,2020,
+30,2/29/16,Culture and recreation,Special events,1933,,6/22/16,2016,special-events
+31,2/29/16,Culture and recreation,Historical districts as a geographic dataset,410,,,2017,
+32,2/29/16,Culture and recreation,Amount of money each city-funded arts and culture organization annually spends in the local economy,220,,,2017,
+33,2/29/16,Culture and recreation,Amount of revenue contributed by entities other than the city annually to each arts and culture organization that also receives City funding,226,,,2017,
+34,2/29/16,Culture and recreation,Athletic areas as a geographic dataset,878,,,2017,
+35,2/29/16,Culture and recreation,"Historic properties and the site details that have been submitted to the California Historical Resources Inventory Database",1076,,,2018,
+36,2/29/16,Culture and recreation,Number of free admissions offered annually by each arts and culture organization that receives city funding,228,,,2018,
+37,2/29/16,Culture and recreation,"Number of full-time employees, part-time employees and volunteers engaged by each arts and culture organization that receives city funding",219,,,2018,
+38,2/29/16,Culture and recreation,Number of paid admissions collected annually by each arts and culture organization that receives city funding,227,,,2018,
+39,2/29/16,Culture and recreation,Number of people who attend the services provided by city-funded arts and culture organizations each year,224,,,2018,
+40,2/29/16,Culture and recreation,Numbers of tourists who access services from arts and culture organizations that receive City funding,223,,,2018,
+41,2/29/16,Culture and recreation,Parcels designated as open space in GIS layer,437,,,2018,
+42,2/29/16,Culture and recreation,Park land by dedication status as a geographic dataset,880,,,2018,
+43,2/29/16,Culture and recreation,Revenue earned annually by each arts and culture organization that receives city funding,225,,,2019,
+44,2/29/16,Culture and recreation,Pools/aquatic center locations as a geographic dataset,883,,,2019,
+45,2/29/16,Culture and recreation,Playground locations as a geographic dataset,882,,,2019,
+46,2/29/16,Culture and recreation,Inventory of all City parks,866,,,2020,
+47,2/29/16,Culture and recreation,Total hours of all libraries by year,814,,,2020,
+48,2/29/16,Culture and recreation,Library hours by location,813,,,2020,
+49,2/29/16,Culture and recreation,Beach amentities by beach,755,,,2020,
+50,2/29/16,Culture and recreation,Official Library circulation statistics,828,,,2020,
+51,2/29/16,Economy and community,General Plan Land Use,430,,6/22/16,2016,general-plan-land-use-map
+52,2/29/16,Economy and community,Parking zone boundaries,412,,6/22/16,2016,parking-zone-boundaries
+53,2/29/16,Economy and community,Permits completed,326,,6/22/16,2016,permits-issued
+54,2/29/16,Economy and community,Permits issued,325,,6/22/16,2016,permits-issued
+55,2/29/16,Economy and community,Land development permit status,316,,6/22/16,2016,permits-issued
+56,2/29/16,Economy and community,Community Planning District boundaries,405,,6/22/16,2016,community-planning-district-boundaries
+57,2/29/16,Economy and community,Open code enforcement cases,334,,6/22/16,2016,code-enforcement-violations
+58,2/29/16,Economy and community,Financial support for candidates and ballot measures up for election,36,,6/22/16,2016,financial-support-candidates-and-ballot-measures-election
+59,2/29/16,Economy and community,Zoning,586,,6/22/16,2016,zoning-map
+60,2/29/16,Economy and community,Code enforcement case status,337,,6/22/16,2016,code-enforcement-violations
+61,2/29/16,Economy and community,Business Improvement District boundaries,388,,6/22/16,2016,business-improvement-district-boundaries
+62,2/29/16,Economy and community,Business listings,179,,6/22/16,2016,active-businesses-san-diego
+63,2/29/16,Economy and community,Community Block Development Grant areas as a geographic dataset,403,,,2017,
+64,2/29/16,Economy and community,Foreign trade zones as a geographic dataset,387,,,2017,
+65,2/29/16,Economy and community,Land development permit applications received,324,,,2017,
+66,2/29/16,Economy and community,Building footprints of non-residential buildings in San Diego as a geographic dataset,429,,,2017,
+67,2/29/16,Economy and community,Active businesses by Business Improvement District,180,,,2017,
+68,2/29/16,Economy and community,Bank reported vacant/foreclosed properties,314,,,2017,
+69,2/29/16,Economy and community,Community Development Block Grant projects,,y,,2018,
+70,2/29/16,Economy and community,Development project status,315,,,2018,
+71,2/29/16,Economy and community,Land development permit inspection results,317,,,2018,
+72,2/29/16,Economy and community,Lease agreements where the City leases space from an outside entity,1879,,,2018,
+73,2/29/16,Economy and community,Number of companies assisted annually through the Economic Development Department,,b,,2018,
+74,2/29/16,Economy and community,Numbers of new storefront improvement program participants,592,,,2018,
+75,2/29/16,Economy and community,Numbers of projects completed as part of the storefront improvement program,593,,,2018,
+76,2/29/16,Economy and community,Recently closed code enforcement cases,335,,,2019,
+77,2/29/16,Economy and community,"Parking impact zones for campus, coast & beach as a geographic dataset",438,,,2019,
+78,2/29/16,Energy and environment,Geological hazards as a geographic dataset,431,,,2017,
+79,2/29/16,Energy and environment,"Metered water billed to all accounts, rolling 12 months, in acre-feet",1126,,,2018,
+80,2/29/16,Energy and environment,Metered water billed to City accounts by City Department,1132,,,2018,
+81,2/29/16,Energy and environment,Metered water billed to City accounts by premise type,1130,,,2018,
+82,2/29/16,Energy and environment,Metered water billed to City accounts for Park and Recreation,1131,,,2018,
+83,2/29/16,Energy and environment,"Monthly reservoir reports for Hodges, Sutherland, Olivenhain reservoirs",1660,,,2018,
+84,2/29/16,Energy and environment,Spreadsheet tracking compliance of a goal of achieving a 20% reduction in urban per capita water,1826,,,2019,
+85,2/29/16,Energy and environment,Children's Pool seal counts,1062,,,2019,
+86,2/29/16,Energy and environment,"Wastewater testing, including total suspended solids and biochemical oxygen demand",1699,,,2019,
+87,2/29/16,Energy and environment,Recycled water billed to City accounts,1128,,,2019,
+88,2/29/16,Energy and environment,"Tonnages of disposed materials brought to Miramar landfill, plus revenue from transaction fees",704,,,2020,
+89,2/29/16,Energy and environment,"Trash, recycling and yard waste tonnage collected by City forces",691,,,2020,
+90,2/29/16,Energy and environment,"Metered potable water billed to all accounts, rolling 12-months, in acre-feet",1129,,,2020,
+91,2/29/16,Energy and environment,"Metered recycled irrigation billed to all accounts, rolling 12 months, in acre-feet",1134,,,2020,
+92,2/29/16,Finance,Parking meter transactions,201,,6/22/16,2016,parking-meter-transactions
+93,2/29/16,Finance,City's operating and capital budgets,714,,,2017,
+94,2/29/16,Finance,Daily water utility revenue by rate category,1123,,,2018,
+95,2/29/16,Finance,Sales tax projection tables,738,,,2019,
+96,2/29/16,Finance,Recycled water utility revenue by rate category,1124,,,2019,
+97,2/29/16,Finance,Payments to vendors who work with the City,143,,,2019,
+98,2/29/16,Finance,Historical ratings of city bond issues,280,,,2020,
+99,2/29/16,Finance,Tourism Marketing District totals by period,162,,,2020,
+100,2/29/16,Finance,Transient Occupancy Tax certificate counts by type and status,159,,,2020,
+101,2/29/16,Finance,Transient Occupancy Tax totals by period,165,,,2020,
+102,2/29/16,Finance,Listing of bond refundings,284,,,2020,
+103,2/29/16,Finance,Listing of continuing disclosure filings made for each bond issuance,281,,,2020,
+104,2/29/16,Finance,Listing of properties whose lease revenues secure lease-revenue bonds,285,,,2020,
+105,2/29/16,Public safety,Fire incidents,742,,6/22/16,2016,fire-incidents
+106,2/29/16,Public safety,Fire/EMS response time statistics,745,,,2017,
+107,2/29/16,Public safety,City of San Diego Fire-Rescue administrative battalion districts as a geographic dataset,408,,,2017,
+108,2/29/16,Public safety,City of San Diego Fire-Rescue administrative engine districts as a geographic dataset,409,,,2017,
+109,2/29/16,Public safety,Police adult arrest log,1097,,,2019,
+110,2/29/16,Public safety,"Police tracking of collisions, including date/time and location",1096,,,2019,
+111,2/29/16,Public safety,Cliff rescues date and location,758,,,2020,
+112,2/29/16,Public safety,Beach misdemeanor and infraction tracking,757,,,2020,
+113,2/29/16,Transportation,Bike route lines,385,,6/22/16,2016,bike-route-map
+114,2/29/16,Transportation,Street sweeping schedules,,,6/22/16,2016,street-sweeping-schedule
+115,2/29/16,Transportation,Traffic volumes,1958,,6/22/16,2016,traffic-volumes
+116,6/8/16,City infrastructure,Parking meter locations,,b,6/22/16,2016,parking-meter-locations
+117,6/8/16,City infrastructure,Parcels to City-owned properties,,b,6/22/16,2016,parcels-city-owned-properties
+118,6/8/16,City infrastructure,Get It Done Requests (311),,b,6/22/16,2016,311-requests
+119,6/8/16,City infrastructure,Available services through Get It Done (311),,b,6/22/16,2016,311-services
+120,6/8/16,City infrastructure,Monitoring of select chemical parameters in drinking water,,b,6/22/16,2016,monitoring-select-chemical-parameters-drinking-water
+121,6/8/16,City infrastructure,Drinking water sample sites,537,,6/22/16,2016,drinking-water-sample-sites
+122,6/8/16,City infrastructure,City-owned property details,,y,6/22/16,2016,city-owned-property-details
+123,6/8/16,City infrastructure,City Right-of-Way boundaries,,y,6/22/16,2016,city-right-way-boundaries
+124,6/8/16,City infrastructure,"Street projects (slurry, overlay, concrete)",2017,,1/17/17,2017,street-repair-projects
+125,6/8/16,City infrastructure,Street Overall Condition Index,2018,,1/17/17,2017,streets-overall-condition-index
+126,6/8/16,City infrastructure,"Street repair line segments",,,1/17/17,2017,street-repair-line-segments
+127,6/8/16,City infrastructure,Bike-friendly miles added or improved,,b,,2017,
+128,6/8/16,City infrastructure,Sidewalk Overall Condition Index,,b,,2020,
+129,6/8/16,City management and ethics,Results from the resident satisfaction survey,,b,,2017,
+130,6/8/16,City management and ethics,Street sweeping monthly performance reports,1067,,,2019,
+131,6/8/16,Culture and recreation,Library locations in San Diego County,,y,6/22/16,2016,library-locations-san-diego-county
+132,6/8/16,Culture and recreation,Park locations,,y,6/22/16,2016,park-locations
+133,6/8/16,Culture and recreation,Locations of public art,210,,,2018,
+134,6/8/16,Culture and recreation,Library and recreation center programs,,b,,2020,
+135,6/8/16,Economy and community,Code enforcement complaint type codes,,b,6/22/16,2016,complaint-type-codes
+136,6/8/16,Economy and community,Revolving Loan Fund coverage boundary,394,,6/22/16,2016,revolving-loan-fund-coverage-boundary
+137,6/8/16,Economy and community,Businesses opened this year according to business tax records,,b,6/22/16,2016,businesses-opened-year
+138,6/8/16,Economy and community,Maintenance Assessment Districts as a geographic dataset,411,,,2018,
+139,6/8/16,Energy and environment,City energy use,698,,,2018,
+140,6/8/16,Finance,Billing for leases on City-owned properties,,,6/22/16,2016,billing-leases-city-owned-properties
+141,6/8/16,Public safety,Fire station locations,,b,6/22/16,2016,fire-stations
+142,6/8/16,Public safety,Police calls for service,1102,,6/22/16,2016,police-calls-service
+143,6/8/16,Public safety,Police beats,,y,6/22/16,2016,police-beats
+144,6/8/16,Public safety,Police call disposition codes,,y,6/22/16,2016,police-call-disposition-codes
+145,6/8/16,Public safety,Police call types,,y,6/22/16,2016,police-call-types
+146,6/8/16,Public safety,Police vehicle stop data,1098,,11/15/16,2017,police-vehicle-stops
