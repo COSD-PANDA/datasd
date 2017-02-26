@@ -19,6 +19,10 @@ bower install
 bundle install
 ```
 
+## Contributing
+
+Please see the [Contributing document](https://github.com/cityofsandiego/datasd/blob/master/CONTRIBUTING.md) for details on how you can get involved in development or submitting constructive feedback.
+
 ## Development and deployment
 
 Make changes only in the `src/` folder.

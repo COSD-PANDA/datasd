@@ -6637,7 +6637,6 @@ img.logo {
 
 #footer-bar {
   background: #21282d;
-  height: 60px;
   position: fixed;
   bottom: 0px;
   z-index: 9999999;
@@ -6645,8 +6644,11 @@ img.logo {
   border-radius: 0px;
   text-align: center;
   line-height: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  font-size: 0.8em;
   width: 100%;
   color: #e3e7ea; }
   #footer-bar a, #footer-bar a:hover, #footer-bar a:visited {
@@ -6698,12 +6700,12 @@ a .hidden-link-text {
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   #footer-bar {
-    height: 30px; } }
+    height: 50px; } }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   #footer-bar {
-    height: 30px; } }
+    height: 50px; } }
 
 .small-top-banner {
   background: #00549f;
