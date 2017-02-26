@@ -1,5 +1,21 @@
-general: 
-  branches: 
+machine:
+  pre:
+    - mkdir ~/.yarn-cache
+  node:
+    version: stable
+  environment:
+    PATH: ${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin:${HOME}/.yarn/bin
+dependencies:
+  pre:
+    - curl -o- -L https://yarnpkg.com/install.sh | bash
+  cache_directories:
+     - ~/.yarn-cache
+  override:
+    - bundle install
+    - yarn install
+      # - npm install
+general:
+  branches:
     only:
       - master
       - production
@@ -9,10 +25,9 @@ deployment:
     commands:
       - gulp publish
       - surge --project ./site --domain datasd-stage.surge.sh
+      #- s3_website push
   production:
     branch: production
     commands:
-      - git config --global user.email "max@maksimize.com"
-      - git config --global user.name "Maksim Pecherskiy"
       - gulp publish
-      - gulp deploy
+      - s3_website push
