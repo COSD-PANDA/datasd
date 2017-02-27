@@ -1,4 +1,5 @@
 # DataSD
+** Please not that this project has been deprecated in favor of [Seaboard](http://github.com/cityofsandiego/seaboard)**
 ![screenshot](http://take.ms/Swxi8)
 ## Installation
 
